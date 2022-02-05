@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sat, 05 Feb 2022 05:14:24 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 20
+Connection: keep-alive
+Access-Control-Allow-Headers: x-requested-with,content-type,Cache-Control,Pragma,Date
+Access-Control-Allow-Methods: GET,OPTIONS,POST
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-CDN: Imperva
+Content-Security-Policy-Report-Only: script-src 'self' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' data: blob: www.google.com www.gstatic.com; frame-src 'self' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' data: blob: www.google.com; form-action  au.vixverify.com; default-src 'self' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' data: blob:; report-uri /csp_report
+X-Iinfo: 10-7964798-7964799 SNNN RT(1644038062883 947) q(0 0 0 -1) r(0 0) U6
+

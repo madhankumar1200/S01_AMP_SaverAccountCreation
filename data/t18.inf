@@ -1,0 +1,11 @@
+[t18]
+FileName1=t18.html
+URL1=https://adservice.google.com/ddm/fls/i/dc_pre=CNitpqTS3vUCFcV5fQod8d8IMQ;src=11035194;type=ampwe0;cat=pc_tt002;ord=3010442771459;gtm=2od1q0;auiddc=1529137724.1643723250;~oref=https%3A%2F%2Fwww.amp.com.au%2F
+Total=1
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t18_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_18.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

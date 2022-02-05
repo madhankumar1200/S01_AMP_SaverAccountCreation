@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Date: Tue, 01 Feb 2022 14:12:16 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=kAVkJz1xbjSKCiv5YaJqaCnBuskJ6guQduCLUwGPJi1yId3ZVkh2HRaY7kcpNKxbn/N/XT7BEEN4y4YE5AXxZ3h14nGvXvxgnAK+I9fv2nfw/2y6QnEpPq/hozCr; Expires=Tue, 08 Feb 2022 14:12:16 GMT; Path=/
+Set-Cookie: AWSALBCORS=kAVkJz1xbjSKCiv5YaJqaCnBuskJ6guQduCLUwGPJi1yId3ZVkh2HRaY7kcpNKxbn/N/XT7BEEN4y4YE5AXxZ3h14nGvXvxgnAK+I9fv2nfw/2y6QnEpPq/hozCr; Expires=Tue, 08 Feb 2022 14:12:16 GMT; Path=/; SameSite=None; Secure
+content-language: en
+content-location: https://secure.amp.com.au/wps/portal/sec/login/!ut/p/a1/hY7LDoIwEEW_hUWX0uERgu7qBh9El0I3pi0VSICS0mL8eytbX7OZ3Mm5J4MpLjAd2NzWzLRqYN0r0-Sa7LJ4n8bBMc3zLZDkfIrWQRxCFjqgdAB8GQL_-hdMF-SH4YBp3Sm-fFOSgUdpjamWN6ml9q1258aYcdogQDBJYbX0WT_6QvU-swiqSiAYLe9at23rGDZLvWJCKDsYBJ-sjZoMLt5keOwLWFH-uBPPewKYm_Gj/dl5/d5/L2dBISEvZ0FBIS9nQSEh/
+p3p: CP="NON CUR OTPi OUR NOR UNI"
+vary: Cookie,User-Agent,Accept-Encoding
+x-frame-options: SAMEORIGIN
+cache-control: no-cache, no-store, must-revalidate
+x-oneagent-js-injection: true
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+content-security-policy: frame-ancestors 'self'
+strict-transport-security: max-age=31536000; includeSubDomains
+ibm-web2-location: /wps/portal/sec/login/!ut/p/a1/hY7LDoIwEEW_hUWX0uERgu7qBh9El0I3pi0VSICS0mL8eytbX7OZ3Mm5J4MpLjAd2NzWzLRqYN0r0-Sa7LJ4n8bBMc3zLZDkfIrWQRxCFjqgdAB8GQL_-hdMF-SH4YBp3Sm-fFOSgUdpjamWN6ml9q1258aYcdogQDBJYbX0WT_6QvU-swiqSiAYLe9at23rGDZLvWJCKDsYBJ-sjZoMLt5keOwLWFH-uBPPewKYm_Gj/dl5/d5/L2dBISEvZ0FBIS9nQSEh/
+server-timing: dtRpid;desc="-1872430367"
+pragma: no-cache
+x-ua-compatible: IE=Edge
+Set-Cookie: DigestTracker=AAABfrWhB1g; Path=/wps
+X-CDN: Imperva
+Content-Encoding: gzip
+X-Iinfo: 14-54757426-54757566 SNYy RT(1643724729832 6112) q(0 0 0 -1) r(0 0) U5
+

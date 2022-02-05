@@ -1,0 +1,11 @@
+[t17]
+SnapshotXmlFile=snapshot_17.xml
+FileName1=t17.gif
+URL1=https://trc.taboola.com/1236555/log/3/unip?en=page_view&item-url=https%3A%2F%2Fwww.amp.com.au%2F&tim=1643723250312&ref=https%3A%2F%2Fwww.amp.com.au%2F&cv=20220129-3-RELEASE&tos=843&ssd=1&scd=13&vi=1643723250308&ri=e01cd59fb8f3fc1a6692eb5d92ebb995&sd=v2_ab8cc1e2063b15704fc42f263c180661_3a61b933-3010-484d-82bd-e50681f939e4-tuct8f2bf73_1643723251_1643723251_CIi3jgYQy7xLGIS1qazrLyABKAEwEDiu_QZA8IUQSNnR1wNQipoCWABgAGjJ5ITkztCf96QBcAE&ui=3a61b933-3010-484d-82bd-e50681f939e4-tuct8f2bf73
+Total=1
+RequestHeaderFile=t17_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t17_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1

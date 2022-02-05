@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 261
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=600, must-revalidate, private
+Content-Encoding: gzip
+Content-Language: en-US
+Date: Sat, 05 Feb 2022 05:12:53 GMT
+Referrer-Policy: no-referrer-when-downgrade
+Server: Apache
+Server-Timing: dtRpid;desc="883849755"
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Accept-Encoding
+Via: 1.1 www-amp-com-au-prd.digital.ampaws.com.au, 1.1 adb4605fb7528573053aec50d6f562c8.cloudfront.net (CloudFront)
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-FRAME-OPTIONS: SAMEORIGIN
+X-OneAgent-JS-Injection: true
+X-UA-Compatible: IE=Edge
+X-XSS-Protection: 1; mode=block
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: SYD62-P1
+X-Amz-Cf-Id: G7VrEixHPDgNs2gJWrbzJUIYuw0ergCvJqykjjq5VjSgkVW6tXNHHg==
+

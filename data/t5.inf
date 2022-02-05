@@ -1,0 +1,17 @@
+[t5]
+FileName1=t5.html
+URL1=https://ampserviceslimited.demdex.net/dest5.html?d_nsid=0
+Total=4
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+FileName2=t5_recaptcha__en.html
+URL2=https://www.gstatic.com/recaptcha/releases/dPctOHA2ifhWm5WzFM_B5TjT/recaptcha__en.js
+FileName3=t5_fbevents.html
+URL3=https://connect.facebook.net/en_US/fbevents.js
+FileName4=t5_insight.min.html
+URL4=https://snap.licdn.com/li.lms-analytics/insight.min.js
+[ProtocolInfo]
+ProtocolId=QTWeb

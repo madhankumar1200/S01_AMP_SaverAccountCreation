@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 20539
+Connection: keep-alive
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=600, must-revalidate, private
+Cache-Control: no-cache="set-cookie"
+Content-Encoding: gzip
+Date: Tue, 01 Feb 2022 14:03:17 GMT
+Referrer-Policy: no-referrer-when-downgrade
+Server: Apache
+Server-Timing: dtRpid;desc="226671080"
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-OneAgent-JS-Injection: true
+X-ruxit-JS-Agent: true
+X-XSS-Protection: 1; mode=block
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 903696f43fdfc4019d7102b6711e9fca.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SYD62-P1
+X-Amz-Cf-Id: QPVJqkHcmFyyfL_tmXRJaewVUgeNkdcKa8EvKsd9VzpN5hGkCrK3TA==
+

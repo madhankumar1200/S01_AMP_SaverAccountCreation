@@ -1,0 +1,17 @@
+[t80]
+FileName1=t80.json
+URL1=https://simpleui-au.vixverify.com/df/getfields
+Total=4
+RequestHeaderFile=t80_RequestHeader.txt
+RequestBodyFile=t80_RequestBody.txt
+ResponseHeaderFile=t80_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_80.xml
+FileName2=t80_sourceheader.txt
+URL2=https://simpleui-au.vixverify.com/df/assets/templates/sourceheader.hb?_=1643726167721
+FileName3=t80_fieldsform.txt
+URL3=https://simpleui-au.vixverify.com/df/assets/templates/fieldsform.hb?_=1643726167722
+FileName4=t80_glyphicons-halflings-regular.html
+URL4=https://simpleui-au.vixverify.com/df/assets/fonts/glyphicons/glyphicons-halflings-regular.woff2
+[ProtocolInfo]
+ProtocolId=QTWeb

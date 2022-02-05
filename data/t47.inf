@@ -1,0 +1,11 @@
+[t47]
+SnapshotXmlFile=snapshot_47.xml
+FileName1=t47.gif
+URL1=https://amp.d2.sc.omtrdc.net/b/ss/amp-dtm-prd/1/JS-2.22.0-LBWB/s62355285484851?AQB=1&ndh=1&pf=1&t=2%2F1%2F2022%201%3A12%3A1%203%20-660&mid=70673313952007354231088583865990664449&aamlh=8&ce=UTF-8&cdp=3&fpCookieDomainPeriods=3&pageName=banking%3Asavings%20accounts%3Aamp%20saver%20account&g=https%3A%2F%2Fwww.amp.com.au%2Fbanking%2Fsavings-accounts%2Famp-saver-account&cc=AUD&events=event52&c28=banking%3Asavings%20accounts%3Aamp%20saver%20account%3Abanner%20cta%3AAMP%20Saver%20Account%3AOpen%20an%20account&v28=D%3Dc28&pe=lnk_o&pev1=https%3A%2F%2Fsecure.amp.com.au%2Fddc%2Fpublic%2Fui%2Fsaver-account%2F&pev2=banner%20cta%3AOpen%20an%20account&s=1536x960&c=24&j=1.6&v=N&k=Y&bw=1536&bh=841&mcorgid=11BA6EA55322342B0A490D44%40AdobeOrg&lrt=422&AQE=1
+Total=1
+RequestHeaderFile=t47_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t47_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1

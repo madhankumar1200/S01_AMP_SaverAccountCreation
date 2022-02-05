@@ -1,0 +1,12 @@
+HTTP/1.1 200 
+Date: Tue, 01 Feb 2022 14:12:15 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: origin,access-control-request-method,access-control-request-headers,accept-encoding
+Access-Control-Allow-Origin: https://secure.amp.com.au
+Access-Control-Allow-Credentials: true
+X-Request-ID: e95f15f0de748f32fac1d31cee9ac625
+Timing-Allow-Origin: *
+Content-Encoding: gzip
+

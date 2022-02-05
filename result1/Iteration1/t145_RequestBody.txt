@@ -1,0 +1,6 @@
+"$a=1%7C18%7C_event_%7C1643726707335%7C_wv_%7CAAI%7C1%7CfIS%7C21579%7CfID%7C1$rId=RID_-39951787"
+"0$rpId=-1133835358$domR=1643726692161$tvn=%2Fbanking%2Fsavings-accounts%2Famp-saver-account$tv"
+"t=1643726685722$tvm=i1%3Bk0%3Bh0$tvtrg=1$ni=4g|7$di=1$url=https%3A%2F%2Fwww.amp.com.au%2Fbanki"
+"ng%2Fsavings-accounts%2Famp-saver-account$title=AMP%20Saver%20Account%20-%20AMP$latC=1$app=cd4"
+"697ba1bc4a478$vi=TKFROPCWDRJHMCROCLTGBIARMHKSAHON-0$fId=326688573_370$v=10231211201155045$vID="
+"1643723227151KUCMMM0I7VUSP519LVFBEELFTQ8JCQ4C$time=1643726709344"

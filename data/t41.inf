@@ -1,0 +1,10 @@
+[t41]
+FileName1=t41_versions.json
+URL1=https://yourir.info/api/v5/versions?appID=61b218eca79bef95&libVersion=1.11.6&st=1
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_41.xml
+FileName2=t41_Availability.html
+URL2=https://d.la1-c1-syd.salesforceliveagent.com/chat/rest/Visitor/Availability.jsonp?sid=e249c64e-522f-46b0-85fa-d308c38bf6cb&r=307&Availability.prefix=Visitor&Availability.ids=[5732P000000004W]&callback=liveagent._.handlePing&deployment_id=5722P000000004b&org_id=00D7F0000001MC1&version=51
+FileName3=t41_Availability.html
+URL3=https://d.la1-c1-syd.salesforceliveagent.com/chat/rest/Visitor/Availability.jsonp?sid=e249c64e-522f-46b0-85fa-d308c38bf6cb&r=258&Availability.prefix=Visitor&Availability.ids=[5732P000000004W]&callback=liveagent._.handlePing&deployment_id=5722P000000004b&org_id=00D7F0000001MC1&version=51

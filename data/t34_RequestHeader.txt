@@ -1,0 +1,18 @@
+GET /banking/savings-accounts HTTP/1.1
+Host: www.amp.com.au
+Connection: keep-alive
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="97", "Chromium";v="97"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://www.amp.com.au/banking
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: rxVisitor=1643723227151KUCMMM0I7VUSP519LVFBEELFTQ8JCQ4C; at_check=true; AMCVS_11BA6EA55322342B0A490D44%40AdobeOrg=1; AMCV_11BA6EA55322342B0A490D44%40AdobeOrg=-432600572%7CMCIDTS%7C19025%7CMCMID%7C70673313952007354231088583865990664449%7CMCAAMLH-1644328032%7C8%7CMCAAMB-1644328032%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1643730437s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C4.5.2; sat_track=true; s_vnum=1675259244685%26vn%3D1; s_invisit=true; s_visitstart=1; dtCookie=v_4_srv_2_sn_CJ59IOVR9DVHC7U82JIF78CU46Q2H7L9_perc_100000_ol_0_mul_1_app-3Acd4697ba1bc4a478_1; JSESSIONID=0000dkROVOwE8SbEW7g5eVvv6Ju:190ohadk8; _fbp=fb.2.1643723244775.1957297030; s_cc=true; dtmclient=false; _gcl_au=1.1.1529137724.1643723250; com.silverpop.iMAWebCookie=d9b1e74c-a061-d26d-21e0-5dab19243e2c; com.silverpop.iMA.session=0e355274-d8b5-1955-b1c5-a94e0e797de5; AWSELB=B56F81F712C89912B18802A47E2066BA790B8E18252541871D077D58946AF855867FD85D5D32B2E5BF2CFE58FE8BB7CB43FBC2AC9DB2AFFB29BFE70E7706D167B9791DBF9A; AWSELBCORS=B56F81F712C89912B18802A47E2066BA790B8E18252541871D077D58946AF855867FD85D5D32B2E5BF2CFE58FE8BB7CB43FBC2AC9DB2AFFB29BFE70E7706D167B9791DBF9A; mbox=session#9718afa41c444baba0f511ec35ad6975#1643725088|PC#9718afa41c444baba0f511ec35ad6975.36_0#1706968999; gpv_pn=banking; liveagent_oref=https://www.amp.com.au/; _uetsid=7c784480836511ecb938af507a963ec8; _uetvid=7c7a99f0836511ec8d66cb32184140ff; amp.com.au.nps.complete=disabled; liveagent_sid=e249c64e-522f-46b0-85fa-d308c38bf6cb; liveagent_vc=2; liveagent_ptid=e249c64e-522f-46b0-85fa-d308c38bf6cb; rxvt=1643726005813|1643723227152; s_ppvl=banking%2C13%2C13%2C841%2C1536%2C841%2C1536%2C960%2C2.5%2CP; dtPC=2$324197256_54h-vTAEGRSBDMHKOUBPKPGPWVQAPOVFTIFIK-0e0; com.silverpop.iMA.page_visit=-29338345:47:; dtLatC=1; s_ppv=banking%2C23%2C13%2C1519.4000244140625%2C1536%2C841%2C1536%2C960%2C2.5%2CP; dtSa=true%7CC%7C-1%7CSavings%20accounts%7C-%7C1643724367512%7C324197256_54%7Chttps%3A%2F%2Fwww.amp.com.au%2Fbanking%7C%7C%7C%7C
+

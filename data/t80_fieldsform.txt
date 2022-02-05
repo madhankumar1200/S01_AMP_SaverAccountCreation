@@ -1,0 +1,43 @@
+
+{{#if showDList}}
+<div class="row">
+	<div class="form-group col-sm-2">
+		<label for="greenid-rego-state" class="control-label">State/Territory <span class="greenid-sr-only">Note for JAWS users: You may need to open this combobox using Alt+Up/Down Arrow before using your arrow keys to navigate the options.</span></label>
+		<select id="greenid-rego-state" class="form-control">
+			{{#each dllist}}
+   					<option {{selected}} value="{{name}}">{{{title}}}</option>
+			{{/each}}
+		</select>
+	</div>
+</div>
+{{/if}}
+
+
+{{#if currentStatus.sourceFieldRawData}}
+
+{{#if sourceIntroText}}
+   <div id="greenid-source-intro">{{{sourceIntroText}}}</div>
+{{/if}}
+
+<form method="POST" id="{{fieldsformid}}" class="{{sourceName}}">
+	{{{currentStatus.sourceFieldRawData}}}
+	<div id="greenid-submit-button-container">
+		<button type="submit" id="{{submitButton}}" class="btn btn-primary">{{submitButtonText}}</button>
+		{{#if enableCancelButton}}
+			<button type="button" id="{{sourceCancelButton}}" class="btn btn-default">{{sourceCancelButtonText}}</button>
+	   	{{/if}}
+	</div>
+</form>
+
+<script type="text/javascript">
+	greenidUiBehaviours.initiateSourceyThings(false);
+</script>
+
+{{/if}}
+
+{{#unless currentStatus.sourceFieldRawData}}
+<h3>No data for this source!</h3>
+{{/unless}}
+
+
+   

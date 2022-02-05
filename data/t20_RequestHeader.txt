@@ -1,0 +1,16 @@
+GET /ddm/fls/i/dc_pre=COqhqqTS3vUCFcyySwUdyQkHjw;src=11030517;type=ampba0;cat=pc_tt01k;ord=9903385081955;gtm=2od1q0;auiddc=1529137724.1643723250;~oref=https%3A%2F%2Fwww.amp.com.au%2F HTTP/1.1
+Host: adservice.google.com
+Connection: keep-alive
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="97", "Chromium";v="97"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: iframe
+Referer: https://11030517.fls.doubleclick.net/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+

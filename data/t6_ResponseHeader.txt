@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Tue, 01 Feb 2022 13:47:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 589
+Connection: keep-alive
+x-amzn-RequestId: 05dad9ec-267d-4dac-be3a-3925fb01225e
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Access-Control-Allow-Headers: Content-Type
+x-amz-apigw-id: M3X8LFt6SwMFiQQ=
+Access-Control-Allow-Methods: OPTIONS,POST,GET
+X-Amzn-Trace-Id: Root=1-61f939e7-36e6f53016de626170594824;Sampled=0
+

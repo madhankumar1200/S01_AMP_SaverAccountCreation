@@ -1,0 +1,17 @@
+[t2]
+FileName1=t2_id.json
+URL1=https://dpm.demdex.net/id?d_visid_ver=4.5.2&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=11BA6EA55322342B0A490D44%40AdobeOrg&d_nsid=0&ts=1643723227362
+Total=4
+ContentType=application/json
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+FileName2=t2_css.css
+URL2=https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600
+FileName3=t2_clientlib-site.html
+URL3=https://www.amp.com.au/etc/designs/amp-au/clientlibs/clientlib-site.js
+FileName4=t2_3a2740.css
+URL4=https://hello.myfonts.net/count/3a2740
+[ProtocolInfo]
+ProtocolId=QTWeb

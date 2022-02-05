@@ -1,0 +1,13 @@
+[t53]
+FileName1=t53.json
+URL1=https://api.ipdata.co/?api-key=1a31485dfcd75b472742d9f7e224d7057a5d9ba6ce95eee1ee785c30
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_53.xml
+RequestHeaderFile=t53_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t53_ResponseHeader.txt
+FileName2=t53_RC1f8c2b6fe7c844ada38e319e2618ba8b-source.min.html
+URL2=https://assets.adobedtm.com/30cb14f656a0/44b143ec5db5/adef6a6787eb/RC1f8c2b6fe7c844ada38e319e2618ba8b-source.min.js
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,15 @@
+[t50]
+FileName1=t50.html
+URL1=https://secure.amp.com.au/wps/portal/sec/login/!ut/p/a1/hY7LDoIwEEW_hUWX0uERgu7qBh9El0I3pi0VSICS0mL8eytbX7OZ3Mm5J4MpLjAd2NzWzLRqYN0r0-Sa7LJ4n8bBMc3zLZDkfIrWQRxCFjqgdAB8GQL_-hdMF-SH4YBp3Sm-fFOSgUdpjamWN6ml9q1258aYcdogQDBJYbX0WT_6QvU-swiqSiAYLe9at23rGDZLvWJCKDsYBJ-sjZoMLt5keOwLWFH-uBPPewKYm_Gj/dl5/d5/L2dBISEvZ0FBIS9nQSEh/
+Total=3
+RequestHeaderFile=t50_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t50_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_50.xml
+FileName2=t50__Incapsula_Resource.html
+URL2=https://secure.amp.com.au/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=714949324
+FileName3=t50_EFFED685B8BB01EC4.css
+URL3=https://www.amp.com.au/fonts/282695/EFFED685B8BB01EC4.css
+[ProtocolInfo]
+ProtocolId=QTWeb

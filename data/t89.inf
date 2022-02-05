@@ -1,0 +1,13 @@
+[t89]
+SnapshotXmlFile=snapshot_89.xml
+FileName1=t89.gif
+URL1=https://trc.taboola.com/1236555/log/3/unip?en=page_view&item-url=https%3A%2F%2Fsecure.amp.com.au%2F&tim=1643726689388&ui=3a61b933-3010-484d-82bd-e50681f939e4-tuct8f2bf73&ref=https%3A%2F%2Fsecure.amp.com.au%2F&cv=20220129-3-RELEASE&tos=907713&ssd=4&scd=81&vi=1643726689378&ri=7cb1c027b6939c81502688881317066a&sd=v2_ab8cc1e2063b15704fc42f263c180661_3a61b933-3010-484d-82bd-e50681f939e4-tuct8f2bf73_1643723251_1643726690_CIi3jgYQy7xLGOKo-63rLyAEKAEwEDiu_QZA8IUQSNnR1wNQipoCWABgAGjJ5ITkztCf96QBcAE
+Total=2
+RequestHeaderFile=t89_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t89_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1
+FileName2=t89_0.html
+URL2=https://bat.bing.com/action/0?ti=16012365&Ver=2&mid=b37b5d48-3ee8-4620-9d7c-7f65a41843e0&sid=7c784480836511ecb938af507a963ec8&vid=7c7a99f0836511ec8d66cb32184140ff&vids=0&uach=pv%3D14.0.0&pi=918639831&lg=en-US&sw=1536&sh=960&sc=24&tl=AMP%20Saver%20Account%20-%20AMP&p=https%3A%2F%2Fwww.amp.com.au%2Fbanking%2Fsavings-accounts%2Famp-saver-account&r=https%3A%2F%2Fsecure.amp.com.au%2F&lt=3476&mtp=10&evt=pageLoad&msclkid=N&sv=1&rn=233231

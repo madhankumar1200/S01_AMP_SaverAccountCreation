@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 19
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=600, must-revalidate, private
+Content-Language: en-US
+Date: Sat, 05 Feb 2022 05:12:46 GMT
+Expires: Thu, 01 Dec 1994 16:00:00 GMT
+Referrer-Policy: no-referrer-when-downgrade
+Server: Apache
+Server-Timing: dtRpid;desc="1904737605"
+Set-Cookie: dtCookie=v_4_srv_2_sn_B2C46848A0CAF7F0F8E1AA282D9187B9_perc_100000_ol_0_mul_1_app-3Acd4697ba1bc4a478_1; Path=/; Domain=.amp.com.au
+Set-Cookie: JSESSIONID=0000EWLmr3cwT2muLI8xYDolNr-:190ohadk8; Path=/; HttpOnly
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Surrogate-Control: no-store
+Via: 1.1 www-amp-com-au-prd.digital.ampaws.com.au, 1.1 adb4605fb7528573053aec50d6f562c8.cloudfront.net (CloudFront)
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-FRAME-OPTIONS: SAMEORIGIN
+X-OneAgent-JS-Injection: true
+X-UA-Compatible: IE=Edge
+X-XSS-Protection: 1; mode=block
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: SYD62-P1
+X-Amz-Cf-Id: 5q9vNrZ3JkBPOb-kUhkqcrI_BUhc2jsN3Ts0Enw9yPB82PXf4A6w4Q==
+

@@ -1,0 +1,11 @@
+[t23]
+SnapshotXmlFile=snapshot_23.xml
+FileName1=t23.gif
+URL1=https://trc-events.taboola.com/1236555/log/3/unip?en=pre_d_eng_tb&tos=24385&scd=13&ssd=1&est=1643723250310&ver=35&isls=true&src=i&invt=12000&rv=1&tim=1643723274696&vi=1643723250308&ri=e01cd59fb8f3fc1a6692eb5d92ebb995&sd=v2_ab8cc1e2063b15704fc42f263c180661_3a61b933-3010-484d-82bd-e50681f939e4-tuct8f2bf73_1643723251_1643723251_CIi3jgYQy7xLGIS1qazrLyABKAEwEDiu_QZA8IUQSNnR1wNQipoCWABgAGjJ5ITkztCf96QBcAE&ui=3a61b933-3010-484d-82bd-e50681f939e4-tuct8f2bf73&ref=https%3A%2F%2Fwww.amp.com.au%2F&cv=20220129-3-RELEASE&item-url=https%3A%2F%2Fwww.amp.com.au%2F
+Total=1
+RequestHeaderFile=t23_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t23_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1

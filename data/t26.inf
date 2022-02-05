@@ -1,0 +1,13 @@
+[t26]
+SnapshotXmlFile=snapshot_26.xml
+FileName1=t26.jfif
+URL1=https://www.amp.com.au/content/dam/amp-au/images/placeholder/Busget%20Planner%20calculator%20image.png.ampaurendition.1920.0.jpg
+Total=2
+RequestHeaderFile=t26_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t26_ResponseHeader.txt
+ContentType=image/jpeg
+FrameIndex1=0
+UseFrameIndex=1
+FileName2=t26_deployment.html
+URL2=https://c.la1-c1-syd.salesforceliveagent.com/content/g/js/51.0/deployment.js

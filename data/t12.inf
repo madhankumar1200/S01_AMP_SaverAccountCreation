@@ -1,0 +1,13 @@
+[t12]
+FileName1=t12.json
+URL1=https://ampserviceslimited.tt.omtrdc.net/rest/v1/delivery?client=ampserviceslimited&sessionId=9718afa41c444baba0f511ec35ad6975&version=2.3.2
+Total=2
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=t12_RequestBody.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_12.xml
+FileName2=t12_Cookies.svg
+URL2=https://www.amp.com.au/content/dam/amp-au/data/illustrations/Cookies.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

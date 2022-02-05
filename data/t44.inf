@@ -1,0 +1,11 @@
+[t44]
+SnapshotXmlFile=snapshot_44.xml
+FileName1=t44.jfif
+URL1=https://www.pages03.net/WTS/event.jpeg?accesskey=18560ebc-14a40f8eab9-943e27de0c8b91cc3fcf1475c3e5d726&v=1.31&isNewSession=0&type=pageview&isNewVisitor=0&sessionGUID=0e355274-d8b5-1955-b1c5-a94e0e797de5&webSyncID=d9b1e74c-a061-d26d-21e0-5dab19243e2c&url=https%3A%2F%2Fwww.amp.com.au%2Fbanking%2Fsavings-accounts%2Famp-saver-account&newSiteVisit=0&referringURL=https%3A%2F%2Fwww.amp.com.au%2Fbanking%2Fsavings-accounts&hostname=www.amp.com.au&pathname=%2Fbanking%2Fsavings-accounts%2Famp-saver-account&newPageVisit=1&eventKey=7b398168-9327-8546-bc57-4d0e63570643
+Total=1
+RequestHeaderFile=t44_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t44_ResponseHeader.txt
+ContentType=image/jpeg
+FrameIndex1=0
+UseFrameIndex=1

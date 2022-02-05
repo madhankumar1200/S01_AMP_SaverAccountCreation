@@ -1,0 +1,11 @@
+[t69]
+FileName1=t69_Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%202795.json
+URL1=https://secure.amp.com.au/ddc/public/api/qas/doSearch/AUS/Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%202795?residentialOnly=true
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_69.xml
+RequestHeaderFile=t69_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t69_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

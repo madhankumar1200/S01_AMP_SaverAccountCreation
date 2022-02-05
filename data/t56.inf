@@ -1,0 +1,13 @@
+[t56]
+FileName1=t56.json
+URL1=https://ampserviceslimited.tt.omtrdc.net/rest/v1/delivery?client=ampserviceslimited&sessionId=9718afa41c444baba0f511ec35ad6975&version=2.3.2
+Total=2
+RequestHeaderFile=t56_RequestHeader.txt
+RequestBodyFile=t56_RequestBody.txt
+ResponseHeaderFile=t56_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_56.xml
+FileName2=t56__Incapsula_Resource.txt
+URL2=https://secure.amp.com.au/_Incapsula_Resource?SWKMTFSR=1&e=0.8392860292557973
+[ProtocolInfo]
+ProtocolId=QTWeb

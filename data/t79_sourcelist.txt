@@ -1,0 +1,87 @@
+{{#if showSourceList}}
+<div class="btn-group" id="greenid-option-list">
+  <button type="button" id="greenid-option-list-toggle" class="btn btn-default dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+    Choose a different ID option <span class="greenid-sr-only">Note for JAWS users: You may need to use Shift+Enter to activate this button.</span><span class="caret"></span>
+  </button>
+  
+  <div class="dropdown-menu" role="menu" tabindex="0">
+  	<div class="pull-left">
+	  	<h2 tabindex="-1">Choose one of these ID sources: <span class="greenid-sr-only">Note for JAWS users: Navigate the list with your tab key.</span></h2>
+	  	<div class="greenid-alert greenid-alert-info" id="onesourceleft-alert" role="alert">{{{oneSourceLeftAlertText}}}</div>
+	  	<ul class="list-group" id="greenid-sources">
+	  	{{#each currentStatus.sources}}
+		    {{#if visible}}
+		       {{#if oneSourceLeft}}
+		       		<li class="list-group-item onesourceleft"><a data-target="#{{name}}" tabindex="0">{{title}} </a></li>
+		       {{else}}
+		            <li class="list-group-item"><a data-target="#{{name}}" tabindex="0">{{title}} </a></li>
+		       {{/if}}
+		    {{/if}}
+		{{/each}}
+	  	</ul>
+  	</div>
+  	
+  	{{#if currentStatus.showManualOptionDiv}}
+  	<div class="pull-left">
+	  	<h2>Or you can:</h2>
+	  	<ul class="list-group">
+	  		{{#if currentStatus.showCompleteLater}}
+	  		     <li class="list-group-item"><a class="greenid-modal-launch" data-target="#{{completeLaterModal}}" tabindex="0">Save &amp; complete later</a></li>
+	  		{{/if}}
+	  		{{#if currentStatus.showCancelInDropDown}}
+            	  		     <li class="list-group-item"><a class="greenid-modal-launch" data-target="#greenid-cancel-dropdown" tabindex="0">Cancel</a></li>
+            	  		{{/if}}
+	  		{{#if currentStatus.showAuspost}}
+	  		     <li class="list-group-item"><a id="postoffice-source" data-target="#postoffice" tabindex="0">Verify at any Australia Post outlet</a></li>
+	  		{{/if}}
+	  	</ul>
+  	</div>
+  	{{/if}}
+  </div>
+</div>
+{{/if}}
+
+<!-- Save and complete later modal -->
+<div class="greenid-modal fade" id="{{completeLaterModal}}" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+	  <span class="greenid-sr-only" data-action="greenid-dialog-start" tabindex="-1">Dialog start</span>
+      <div class="modal-header">
+        <button type="button" class="greenid-modal-close greenid-x" aria-label="close">&times;</button>
+        <h4 class="modal-title">{{completeLaterHeading}}</h4>
+      </div>
+      <div class="modal-body">
+        {{{completeLaterText}}}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default greenid-modal-close">{{completeLaterCancelButton}}</button>
+        <button type="button" id="greenid-save-and-complete-later" class="btn btn-primary" data-action="greenid-finish">{{completeLaterButton}}</button>        
+      </div>
+      <span class="greenid-sr-only" data-action="greenid-dialog-end" tabindex="0">Dialog end</span>
+    </div>
+  </div>
+</div>
+
+<!-- cancel modal -->
+<div class="greenid-modal fade" id="greenid-cancel-dropdown" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+	  <span class="greenid-sr-only" data-action="greenid-dialog-start" tabindex="-1">Dialog start</span>
+      <div class="modal-header">
+        <button type="button" class="greenid-modal-close greenid-x" aria-label="close">&times;</button>
+        <h4 class="modal-title">Are you sure you want to cancel this process?</h4>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="greenid-cancel" class="btn btn-primary" onclick="greenidUI.saveAndCompleteLater()">Yes, quit now</button>
+        <button type="button" class="btn btn-default greenid-modal-close">No, continue the process</button>
+      </div>
+      <span class="greenid-sr-only" data-action="greenid-dialog-end" tabindex="0">Dialog end</span>
+    </div>
+  </div>
+
+<script type="text/javascript">		
+	greenidJQuery(document).ready(function() {
+		greenidUiBehaviours.sourceListStartUp({{currentStatus.showManualOptionDiv}});
+	});
+</script>
+   

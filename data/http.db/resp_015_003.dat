@@ -1,0 +1,25 @@
+<svg width="948px" height="518px" viewBox="0 0 948 518" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <radialGradient cx="45.9228424%" cy="50%" fx="45.9228424%" fy="50%" r="51.7516252%" gradientTransform="translate(0.459228,0.500000),scale(0.642247,1.000000),rotate(-90.000000),scale(1.000000,1.305729),translate(-0.459228,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.80432329" offset="61.2541791%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.318509615" offset="84.0303546%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="32.5644952%" y1="9.46280257%" x2="72.1149796%" y2="39.5169678%" id="linearGradient-2">
+            <stop stop-color="#00C2F3" offset="0%"></stop>
+            <stop stop-color="#406BBA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="D-04" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D-AMP.com.au-1920p" transform="translate(-33.000000, -132.000000)">
+            <g id="Hero-Banner" transform="translate(0.000000, 132.000000)">
+                <g id="Bubble" transform="translate(33.000000, 0.000000)">
+                    <ellipse id="Oval" fill="url(#radialGradient-1)" cx="552" cy="190" rx="409.5" ry="263"></ellipse>
+                    <path d="M839.423596,-341.775869 C743.155167,-363.658865 487.877849,-406.430176 229.944851,-156.101962 C-6.4107406,73.6694972 225.62937,336.265451 349.782448,428.107723 C473.935525,519.949994 678.090987,625.054688 822.493631,424.128996 C966.896275,223.203304 1017.02225,-301.657043 839.423596,-341.775869 Z" id="Path" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.65" transform="translate(540.500000, 90.000000) rotate(-171.000000) translate(-540.500000, -90.000000) "></path>
+                    <path d="M850.522558,-58.926924 C886.354524,65.0508992 815.865411,352.373911 498.664402,449.910967 C181.463394,547.448022 -22.9550335,406.430593 83.3660452,244.260549 C189.687124,82.0905053 374.721045,-281.616948 545.657144,-283.967238 C711.893969,-286.317529 820.564685,-161.752133 850.522558,-58.926924 Z" id="Path" fill="#3AC1CD" fill-rule="nonzero" opacity="0.7" transform="translate(457.000000, 99.000000) rotate(62.000000) translate(-457.000000, -99.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

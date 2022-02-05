@@ -1,0 +1,20 @@
+POST /ddc/public/api/forms/save?formId=8810578662&checkSecurityToken=e718de77-e0e2-48ab-a369-6f3f4b280b0e&formName=SaverAccount&checkDob=14/04/1992&checkName=Dummy HTTP/1.1
+Host: secure.amp.com.au
+Connection: keep-alive
+Content-Length: 3493
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="97", "Chromium";v="97"
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: https://secure.amp.com.au
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://secure.amp.com.au/ddc/public/ui/saver-account/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: rxVisitor=1643723227151KUCMMM0I7VUSP519LVFBEELFTQ8JCQ4C; at_check=true; AMCVS_11BA6EA55322342B0A490D44%40AdobeOrg=1; s_vnum=1675259244685%26vn%3D1; dtCookie=v_4_srv_2_sn_CJ59IOVR9DVHC7U82JIF78CU46Q2H7L9_perc_100000_ol_0_mul_1_app-3Acd4697ba1bc4a478_1; _fbp=fb.2.1643723244775.1957297030; s_cc=true; _gcl_au=1.1.1529137724.1643723250; com.silverpop.iMAWebCookie=d9b1e74c-a061-d26d-21e0-5dab19243e2c; _uetsid=7c784480836511ecb938af507a963ec8; _uetvid=7c7a99f0836511ec8d66cb32184140ff; rxvt=1643726360172|1643723227152; s_ppvl=banking%253Asavings%2520accounts%253Aamp%2520saver%2520account%2C11%2C11%2C841%2C1536%2C841%2C1536%2C960%2C2.5%2CP; s_ppv=banking%253Asavings%2520accounts%253Aamp%2520saver%2520account%2C11%2C11%2C841%2C1536%2C841%2C1536%2C960%2C2.5%2CP; dtPC=2$324557227_972h-vTAEGRSBDMHKOUBPKPGPWVQAPOVFTIFIK-0e0; dtLatC=1; dtSa=true%7CC%7C-1%7COpen%20an%20account%7C-%7C1643724721541%7C324557227_972%7Chttps%3A%2F%2Fwww.amp.com.au%2Fbanking%2Fsavings-accounts%2Famp-saver-account%7C%7C%7C%7C; PD-S-SESSION-ID=1_2_0_i0l1ctvkjeEWuiVuNrBRfvgixFz6Bh4tzcnZQWt5uUyYLoOd; visid_incap_2398187=vvoAu3SzRru8RNynXK5p/7k/+WEAAAAAQUIPAAAAAAAO9WKPKLl1nnLIAaw3O+DG; nlbi_2398187=SCIKNG4nBRv7oBvqN1yb2AAAAACiRQnv6wAxKpgiFYIsPF4c; sat_ref=https://www.amp.com.au/banking/savings-accounts/amp-saver-account; sat_track=true; AMCV_11BA6EA55322342B0A490D44%40AdobeOrg=-408604571%7CMCIDTS%7C19025%7CMCMID%7C70673313952007354231088583865990664449%7CMCAAMLH-1644329534%7C8%7CMCAAMB-1644329534%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1643731934s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C4.6.0; mbox=session#9718afa41c444baba0f511ec35ad6975#1643725088|PC#9718afa41c444baba0f511ec35ad6975.36_0#1706969536; dtmclient=false; incap_ses_423_2398187=eNQoeoIULicKcm9CSczeBQBA+WEAAAAADsETLQhuRcfRFsbM6sgiHA==; incap_ses_332_2398187=l7YfZ3ztZ1cNa70BR4CbBERB+WEAAAAAt0y551v6FTOjftClQM2Yqg==; incap_ses_435_2398187=ZOR9CbVITkaHeuq94G8JBlpC+WEAAAAAwO5bBkQ+VoOziAL8MyvP3w==; incap_ses_343_2398187=rBIOL1viIFI99SYWuJTCBLNE+WEAAAAAmN2Q/QxFvmqMdqVqE9SDaA==; AWSALB=W/+mDX6RArtErSHwQZYFffLl/RndsgUDOO6UpbeV+W9GAPX8S616p/iDSg+9fsjOiuEA7blUWz0CnYOEMn7ERGKZ8bDaGYet5day1MQJPArQFUqU1qE1T10qYxwt; AWSALBCORS=W/+mDX6RArtErSHwQZYFffLl/RndsgUDOO6UpbeV+W9GAPX8S616p/iDSg+9fsjOiuEA7blUWz0CnYOEMn7ERGKZ8bDaGYet5day1MQJPArQFUqU1qE1T10qYxwt
+

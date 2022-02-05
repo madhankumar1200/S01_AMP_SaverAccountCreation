@@ -1,0 +1,15 @@
+[t15]
+SnapshotXmlFile=snapshot_15.xml
+FileName1=t15.gif
+URL1=https://www.facebook.com/tr/?id=131169910928083&ev=ViewContent&dl=https%3A%2F%2Fwww.amp.com.au%2F&rl=https%3A%2F%2Fwww.amp.com.au%2F&if=false&ts=1643723244781&sw=1536&sh=960&v=2.9.52&r=stable&ec=1&o=28&fbp=fb.2.1643723244775.1957297030&it=1643723239745&coo=false&exp=p1&rqm=GET
+Total=3
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t15_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1
+FileName2=t15_styles__ltr.css
+URL2=https://www.gstatic.com/recaptcha/releases/dPctOHA2ifhWm5WzFM_B5TjT/styles__ltr.css
+FileName3=t15_recaptcha__en.html
+URL3=https://www.gstatic.com/recaptcha/releases/dPctOHA2ifhWm5WzFM_B5TjT/recaptcha__en.js

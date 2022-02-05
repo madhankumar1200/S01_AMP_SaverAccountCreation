@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Tue, 01 Feb 2022 14:36:12 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1167
+Connection: keep-alive
+Access-Control-Allow-Headers: x-requested-with,content-type,Cache-Control,Pragma,Date
+Access-Control-Allow-Methods: GET,OPTIONS,POST
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+Set-Cookie: visid_incap_2338766=kgxEQoYlRPSSUTwT5w/8S1ZF+WEAAAAAQUIPAAAAAABbW1NvmRXrr+ql3MFffcUU; expires=Wed, 01 Feb 2023 10:27:11 GMT; HttpOnly; path=/; Domain=.vixverify.com; Secure; SameSite=None
+Set-Cookie: nlbi_2338766=YJB3Hme3uCIQNWDha0UWxQAAAAD8EF+Y+y2C9pgRn7UTkh5c; path=/; Domain=.vixverify.com; Secure; SameSite=None
+Set-Cookie: incap_ses_437_2338766=V5JdIkIPxW2E5L8F5YoQBltF+WEAAAAAF6EflbqnZnFzicmhGQkMvQ==; path=/; Domain=.vixverify.com; Secure; SameSite=None
+X-CDN: Imperva
+Content-Security-Policy-Report-Only: script-src 'self' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' data: blob: www.google.com www.gstatic.com; frame-src 'self' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' data: blob: www.google.com; form-action  au.vixverify.com; default-src 'self' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' data: blob:; report-uri /csp_report
+X-Iinfo: 5-73983912-73983918 NNNY CT(2 8 0) RT(1643726171028 58) q(0 0 0 0) r(8 8) U6
+

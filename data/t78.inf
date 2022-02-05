@@ -1,0 +1,11 @@
+[t78]
+SnapshotXmlFile=snapshot_78.xml
+FileName1=t78.gif
+URL1=https://simpleui-au.vixverify.com/df/assets/images/loader.gif
+Total=1
+RequestHeaderFile=t78_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t78_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1

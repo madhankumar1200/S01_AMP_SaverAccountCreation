@@ -1,0 +1,11 @@
+HTTP/2.0 200
+Status: 200
+date: Sat, 05 Feb 2022 05:12:52 GMT
+content-type: application/json;charset=UTF-8
+vary: origin,access-control-request-method,access-control-request-headers,accept-encoding
+access-control-allow-origin: https://www.amp.com.au
+access-control-allow-credentials: true
+x-request-id: 115b8b3aa89be11a5d2216c3bb815da0
+timing-allow-origin: *
+content-encoding: gzip
+

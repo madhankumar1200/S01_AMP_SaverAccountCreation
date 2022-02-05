@@ -1,0 +1,13 @@
+HTTP/2.0 200
+Status: 200
+date: Sat, 05 Feb 2022 05:12:44 GMT
+content-type: application/json; charset=utf-8
+content-length: 590
+x-amzn-requestid: 4728ad1b-ee5d-4d11-9bd9-30a186d894a7
+access-control-allow-origin: *
+content-encoding: gzip
+access-control-allow-headers: Content-Type
+x-amz-apigw-id: NDYT6E1GywMFQYg=
+access-control-allow-methods: OPTIONS,POST,GET
+x-amzn-trace-id: Root=1-61fe074c-442ed19f311048614e50cefd;Sampled=0
+

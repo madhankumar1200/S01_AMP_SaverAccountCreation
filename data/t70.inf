@@ -1,0 +1,11 @@
+[t70]
+FileName1=t70_AUS%7C9a82b8a7-931e-4496-a026-b4baffaecacb%7C7.730uOAUSHAzlBwAAAAAIAgEAAAAADXjb0AAgAAAAAAEAVW5pdAAAAP..UwAAAAD.....json
+URL1=https://secure.amp.com.au/ddc/public/api/qas/doGetAddress/AUS/AUS%7C9a82b8a7-931e-4496-a026-b4baffaecacb%7C7.730uOAUSHAzlBwAAAAAIAgEAAAAADXjb0AAgAAAAAAEAVW5pdAAAAP..UwAAAAD.....AAAAAAAAAAAAAAAAAAAAVW5pdCA4NCBHZW9yZ2UgU3RyZWV0LCBCQVRIVVJTVCAgTlNXICAyNzk1AAAAAAA-$42?partialAddress=Unit%2084%20George%20Street,%20BATHURST%20%20NSW%20%202795
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_70.xml
+RequestHeaderFile=t70_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t70_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

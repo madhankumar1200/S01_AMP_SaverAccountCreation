@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Date: Tue, 01 Feb 2022 14:41:46 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Set-Cookie: AWSALB=O1HPjWPNeQjQBHMtMzv0nOY52zGmyLRND2Qyhvp05oF2XHiHXB5RkVLcpUotP7LyqxP7lXH4QBAijBAVk+ixc6kVQs0Jn/URJAeOkr9kueM51PxS6m5c+yA2oySc; Expires=Tue, 08 Feb 2022 14:41:45 GMT; Path=/
+Set-Cookie: AWSALBCORS=O1HPjWPNeQjQBHMtMzv0nOY52zGmyLRND2Qyhvp05oF2XHiHXB5RkVLcpUotP7LyqxP7lXH4QBAijBAVk+ixc6kVQs0Jn/URJAeOkr9kueM51PxS6m5c+yA2oySc; Expires=Tue, 08 Feb 2022 14:41:45 GMT; Path=/; SameSite=None; Secure
+etag: W/"390-ufQgu6o3NlT3gXJlIfYHx5ckYMw:dtagent10231211201155045SEHI:dtagent10231211201155045SEHI"
+p3p: CP="NON CUR OTPi OUR NOR UNI"
+vary: Origin
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+timing-allow-origin: *
+content-security-policy: frame-ancestors 'self'
+strict-transport-security: max-age=31536000; includeSubDomains
+server-timing: dtSInfo;desc="0", dtRpid;desc="881809130", dtTao;desc="1"
+Set-Cookie: incap_ses_1469_2398187=SR1SdsbPcixbDBvT3O9iFKlG+WEAAAAA4+Ir1Zmn5o8Pp/uV3/c7fg==; path=/; Domain=.amp.com.au
+Set-Cookie: ___utmvmflBuvMIwZ=UHLMPatuvvT; path=/; Max-Age=900
+Set-Cookie: ___utmvaflBuvMIwZ=VJNwDWa; path=/; Max-Age=900
+Set-Cookie: ___utmvbflBuvMIwZ=gZo
+    XGXOLald: gtT; path=/; Max-Age=900
+X-CDN: Imperva
+Content-Encoding: gzip
+Transfer-Encoding: chunked
+X-Iinfo: 14-166456725-166456749 NNYN CT(1 3 0) RT(1643726504970 63) q(0 0 0 0) r(3 3) U5
+

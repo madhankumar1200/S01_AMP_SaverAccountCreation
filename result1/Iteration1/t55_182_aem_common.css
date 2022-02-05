@@ -1,0 +1,19 @@
+.blue-banner {
+    background: none repeat scroll 0 0 #8dcef2;
+    color: #fff;
+    padding: 40px 40px 30px 40px; 
+	/**move our banner up to cover up the banner from c-frame**/
+	top: 55px;
+	position: absolute;
+}
+
+
+.blue-banner h3 {
+    color: #fff;
+    font-family: "Archer_Medium";
+    font-size: 52px;
+    font-weight: normal;
+    line-height: 45px;
+}
+
+

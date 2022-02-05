@@ -1,0 +1,48 @@
+.hidden{display:none!important;visibility:hidden}
+/*missing icons secure*/
+.amp-login .icon--danger,.popover__icon--sml.icon--close:before,.popover__icon--sml:before,.popover__icon--smr:before{font-family:xtreme!important}
+/*button height*/
+.access-management a{line-height:1.4em!important}
+.access-management a.btn{min-width:14rem;}
+/*login popup*/
+.login__form .input-wrapper label{padding:0}
+.login__form .input-wrapper input:focus{border:none;box-shadow:none}
+.login__form .input-wrapper input:hover{border:none;box-shadow:none;border-bottom:.1rem solid #545454;padding:1.2rem 2rem 1.1rem 0}
+.login__form .input-wrapper input[type=text]{border-radius:0;-webkit-border-radius:0}
+.login__wrapper h3{color:#001e41;}
+.login__wrapper h2{margin-bottom:4rem!important;font-weight:400;font-size:3.2rem;color:#001e41;}
+/*info popup*/
+.ampsitefurniture p a{font-size:12px;}
+.tool-cntnt p a{font-size:12px;}
+/*.main-content p a{font-size:12px;}*/
+.tool-cntnt.moreHeight{width:260px!important}
+.tool-cntnt p{font-size:13px;}
+.tool-cntnt p.heading{font-size:1.6923em;} 
+/*disclaimer font*/
+.access-management p a{font-size:inherit;}
+.mt p{font-size:13px;}
+/*contextual-help registration*/
+.contextual-help p{font-size: 13px;}
+.contextual-help p.heading{font-size: 1.50em;}
+/*myamp font*/
+.ng-scope h1, .h1, h2.h1, h3.h1, h4.h1, h5.h1, h6.h1{font-size:3.20384615em!important;}
+.ng-scope h2, .h2, h1.h2, h3.h2, h4.h2, h5.h2, h6.h2{font-size:2.09230769em!important;}
+.ng-scope h3, .h3, h1.h3, h2.h3, h4.h3, h5.h3, h6.h3{font-size:1.04615484em!important;}
+.ng-scope h4, .h4, h1.h4 h2.h4, h3.h4, h5.h4, h6.h4{font-size:0.91538461em!important;}
+.ng-scope h5, .h5, .bsb-account-number > span, h1.h5, h2.h5, h3.h5, h4.h5, h6.h5{font-size:0.85em!important;}
+.ng-scope h6, .h6, h1.h6, h2.h6, h3.h6, h4.h6, h5.h6{font-size:0.78461538em!important;}
+.ng-binding p{font-size:1.3rem;}
+.ng-pristine p, .ng-pristine span, legend{font-size:1.3rem;}
+.data-forms__label, .data-forms__field-value{font-size:0.9775em!important;}
+.data-forms__select{font-size:0.915365em!important;}
+.data-forms__field{font-size:0.915365em!important;}
+.popover{font-size:0.85em!important;}
+/*myamp placeholder*/
+.access-management ::placeholder{color: #ccc;}
+/*onlineforms placeholder*/
+.ampsitefurniture ::placeholder{color: #ccc;}
+/*datepicker icon in registration*/
+.ui-datepicker .icon-amp_chevron-down:before{font-family:xtreme!important}
+/*search bar text position fix*/
+.search-bar input{height:80px}
+.search-bar input:hover,input:focus{border:none;box-shadow:none!important}

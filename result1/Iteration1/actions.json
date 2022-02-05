@@ -1,0 +1,1259 @@
+[
+    {
+        "actionName": "LaunchHomePage",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: amp.com.au",
+                "infFile": "t6.inf",
+                "time": 1644037962490
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: id",
+                "infFile": "t10.inf",
+                "time": 1644037962884
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: rb_bf96747ztk",
+                "infFile": "t11.inf",
+                "time": 1644037963004
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: delivery",
+                "infFile": "t12.inf",
+                "time": 1644037963253
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: dest5.html",
+                "infFile": "t13.inf",
+                "time": 1644037963459
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: api.ipdata.co",
+                "infFile": "t14.inf",
+                "time": 1644037963751
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: rb_bf96747ztk_2",
+                "infFile": "t15.inf",
+                "time": 1644037963917
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: www.amp.com.au",
+                "infFile": "t16.inf",
+                "time": 1644037964318
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: amp.asx",
+                "infFile": "t17.inf",
+                "time": 1644037964645
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: amp.nzx",
+                "infFile": "t18.inf",
+                "time": 1644037964707
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: delivery_2",
+                "infFile": "t19.inf",
+                "time": 1644037965116
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: anchor",
+                "infFile": "t20.inf",
+                "time": 1644037965667
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: NetPromoterScore",
+                "infFile": "t22.inf",
+                "time": 1644037965922
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Custom Request: rb_bf96747ztk_3",
+                "infFile": "t23.inf",
+                "time": 1644037966013
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: versions",
+                "infFile": "t24.inf",
+                "time": 1644037966103
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Custom Request: rb_bf96747ztk_4",
+                "infFile": "t25.inf",
+                "time": 1644037966277
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Custom Request: rb_bf96747ztk_5",
+                "infFile": "t26.inf",
+                "time": 1644037966403
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Custom Request: rb_bf96747ztk_6",
+                "infFile": "t27.inf",
+                "time": 1644037966483
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T00_Launch_AMP_HomePage",
+                "rawStartTime": 1644037960019,
+                "rawEndTime": 1644037966559,
+                "thinkTime": 0.0,
+                "wastedTime": 0.33853602409362795
+            }
+        ]
+    },
+    {
+        "actionName": "NavigateToBanking",
+        "steps": [
+            {
+                "stepId": "STEP19",
+                "stepName": "Url: banking",
+                "infFile": "t28.inf",
+                "time": 1644037972156
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Custom Request: 0",
+                "infFile": "t29.inf",
+                "time": 1644037972558
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Custom Request: delivery_3",
+                "infFile": "t30.inf",
+                "time": 1644037972696
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Url: NetPromoterScore_2",
+                "infFile": "t31.inf",
+                "time": 1644037973431
+            },
+            {
+                "stepId": "STEP23",
+                "stepName": "Custom Request: rb_bf96747ztk_7",
+                "infFile": "t32.inf",
+                "time": 1644037973519
+            },
+            {
+                "stepId": "STEP24",
+                "stepName": "Custom Request: rb_bf96747ztk_8",
+                "infFile": "t33.inf",
+                "time": 1644037973604
+            },
+            {
+                "stepId": "STEP25",
+                "stepName": "Custom Request: rb_bf96747ztk_9",
+                "infFile": "t34.inf",
+                "time": 1644037973675
+            },
+            {
+                "stepId": "STEP26",
+                "stepName": "Custom Request: rb_bf96747ztk_10",
+                "infFile": "t35.inf",
+                "time": 1644037973749
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T01_ClickOnBanking",
+                "rawStartTime": 1644037971750,
+                "rawEndTime": 1644037973754,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08557534217834473
+            }
+        ]
+    },
+    {
+        "actionName": "NavigateToSavingsAccount",
+        "steps": [
+            {
+                "stepId": "STEP27",
+                "stepName": "Url: savings-accounts",
+                "infFile": "t36.inf",
+                "time": 1644037979545
+            },
+            {
+                "stepId": "STEP28",
+                "stepName": "Custom Request: delivery_4",
+                "infFile": "t37.inf",
+                "time": 1644037979732
+            },
+            {
+                "stepId": "STEP29",
+                "stepName": "Custom Request: 0_2",
+                "infFile": "t38.inf",
+                "time": 1644037979972
+            },
+            {
+                "stepId": "STEP30",
+                "stepName": "Custom Request: rb_bf96747ztk_11",
+                "infFile": "t39.inf",
+                "time": 1644037980195
+            },
+            {
+                "stepId": "STEP31",
+                "stepName": "Custom Request: rb_bf96747ztk_12",
+                "infFile": "t40.inf",
+                "time": 1644037980295
+            },
+            {
+                "stepId": "STEP32",
+                "stepName": "Custom Request: rb_bf96747ztk_13",
+                "infFile": "t41.inf",
+                "time": 1644037980392
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T02_ClickOnSavingsAccount_UnderBankingPage",
+                "rawStartTime": 1644037978891,
+                "rawEndTime": 1644037980468,
+                "thinkTime": 0.0,
+                "wastedTime": 0.058188438415527347
+            }
+        ]
+    },
+    {
+        "actionName": "LearnMoreOnSaverAccount",
+        "steps": [
+            {
+                "stepId": "STEP33",
+                "stepName": "Url: amp-saver-account",
+                "infFile": "t42.inf",
+                "time": 1644037986368
+            },
+            {
+                "stepId": "STEP34",
+                "stepName": "Custom Request: 0_3",
+                "infFile": "t43.inf",
+                "time": 1644037986651
+            },
+            {
+                "stepId": "STEP35",
+                "stepName": "Custom Request: delivery_5",
+                "infFile": "t44.inf",
+                "time": 1644037986809
+            },
+            {
+                "stepId": "STEP36",
+                "stepName": "Custom Request: rb_bf96747ztk_14",
+                "infFile": "t45.inf",
+                "time": 1644037986907
+            },
+            {
+                "stepId": "STEP37",
+                "stepName": "Custom Request: rb_bf96747ztk_15",
+                "infFile": "t46.inf",
+                "time": 1644037986982
+            },
+            {
+                "stepId": "STEP38",
+                "stepName": "Custom Request: rb_bf96747ztk_16",
+                "infFile": "t47.inf",
+                "time": 1644037987072
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T03_ClickOnLearnMore_UnderAMPSaverAccount_UnderProductSection",
+                "rawStartTime": 1644037985622,
+                "rawEndTime": 1644037987079,
+                "thinkTime": 0.0,
+                "wastedTime": 0.059220075607299808
+            }
+        ]
+    },
+    {
+        "actionName": "NavigateToOpenAccount",
+        "steps": [
+            {
+                "stepId": "STEP39",
+                "stepName": "Url: saver-account",
+                "infFile": "t48.inf",
+                "time": 1644037993431
+            },
+            {
+                "stepId": "STEP40",
+                "stepName": "Custom Request: 0_4",
+                "infFile": "t49.inf",
+                "time": 1644037993704
+            },
+            {
+                "stepId": "STEP41",
+                "stepName": "Url: ruxitagentjs_ICA27Vfghjqrux_10231211201155045.js",
+                "infFile": "t50.inf",
+                "time": 1644037994165
+            },
+            {
+                "stepId": "STEP42",
+                "stepName": "Custom Request: id_2",
+                "infFile": "t51.inf",
+                "time": 1644037994398
+            },
+            {
+                "stepId": "STEP43",
+                "stepName": "Custom Request: delivery_6",
+                "infFile": "t52.inf",
+                "time": 1644037994487
+            },
+            {
+                "stepId": "STEP44",
+                "stepName": "Url: api.ipdata.co_2",
+                "infFile": "t53.inf",
+                "time": 1644037994578
+            },
+            {
+                "stepId": "STEP45",
+                "stepName": "Url: saver-account_2",
+                "infFile": "t54.inf",
+                "time": 1644037995036
+            },
+            {
+                "stepId": "STEP46",
+                "stepName": "Url: ruxitagentjs_ICA27Vfghjqrux_10231211201155045.js_2",
+                "infFile": "t55.inf",
+                "time": 1644037995502
+            },
+            {
+                "stepId": "STEP47",
+                "stepName": "Custom Request: delivery_7",
+                "infFile": "t56.inf",
+                "time": 1644037995707
+            },
+            {
+                "stepId": "STEP48",
+                "stepName": "Url: DDO.portal-content.json",
+                "infFile": "t57.inf",
+                "time": 1644037995764
+            },
+            {
+                "stepId": "STEP49",
+                "stepName": "Url: _jcr_content.json",
+                "infFile": "t58.inf",
+                "time": 1644037995818
+            },
+            {
+                "stepId": "STEP50",
+                "stepName": "Url: _jcr_content.json_2",
+                "infFile": "t59.inf",
+                "time": 1644037995863
+            },
+            {
+                "stepId": "STEP51",
+                "stepName": "Url: DDO.portal-content.json_2",
+                "infFile": "t60.inf",
+                "time": 1644037995942
+            },
+            {
+                "stepId": "STEP52",
+                "stepName": "Custom Request: usersession",
+                "infFile": "t61.inf",
+                "time": 1644037996558
+            },
+            {
+                "stepId": "STEP53",
+                "stepName": "Custom Request: usersession_2",
+                "infFile": "t62.inf",
+                "time": 1644037997099
+            },
+            {
+                "stepId": "STEP54",
+                "stepName": "Custom Request: countries",
+                "infFile": "t63.inf",
+                "time": 1644037997314
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T04_ClickOnOpenAnAccount",
+                "rawStartTime": 1644037992232,
+                "rawEndTime": 1644037997324,
+                "thinkTime": 0.0,
+                "wastedTime": 0.5765726566314697
+            }
+        ]
+    },
+    {
+        "actionName": "CreateNewAppln_CustomerByJustMe",
+        "steps": [
+            {
+                "stepId": "STEP55",
+                "stepName": "Custom Request: save",
+                "infFile": "t66.inf",
+                "time": 1644038002909
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T05_ClickNewApplication_ClickNewCustomer_ClickJustMe",
+                "rawStartTime": 1644038002440,
+                "rawEndTime": 1644038002925,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004202842712402344
+            }
+        ]
+    },
+    {
+        "actionName": "ProceedToPersonalDetails",
+        "steps": [
+            {
+                "stepId": "STEP56",
+                "stepName": "Custom Request: save_2",
+                "infFile": "t67.inf",
+                "time": 1644038008170
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T06_ClickOnProceed_UnderImportantInfoSection",
+                "rawStartTime": 1644038007996,
+                "rawEndTime": 1644038008183,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0058476924896240238
+            }
+        ]
+    },
+    {
+        "actionName": "EnterPersonalDetails",
+        "steps": [
+            {
+                "stepId": "STEP57",
+                "stepName": "Custom Request: save_3",
+                "infFile": "t68.inf",
+                "time": 1644038013451
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T07_EnterPersonalDetails_ClickOk",
+                "rawStartTime": 1644038013244,
+                "rawEndTime": 1644038013462,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0037713050842285158
+            }
+        ]
+    },
+    {
+        "actionName": "EnerResidentialAddress",
+        "steps": [
+            {
+                "stepId": "STEP58",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t69.inf",
+                "time": 1644038019156
+            },
+            {
+                "stepId": "STEP59",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t70.inf",
+                "time": 1644038019446
+            },
+            {
+                "stepId": "STEP60",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t71.inf",
+                "time": 1644038019946
+            },
+            {
+                "stepId": "STEP61",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t72.inf",
+                "time": 1644038020313
+            },
+            {
+                "stepId": "STEP62",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t73.inf",
+                "time": 1644038020614
+            },
+            {
+                "stepId": "STEP63",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t74.inf",
+                "time": 1644038020871
+            },
+            {
+                "stepId": "STEP64",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t75.inf",
+                "time": 1644038021117
+            },
+            {
+                "stepId": "STEP65",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t76.inf",
+                "time": 1644038021397
+            },
+            {
+                "stepId": "STEP66",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t77.inf",
+                "time": 1644038021669
+            },
+            {
+                "stepId": "STEP67",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t78.inf",
+                "time": 1644038021943
+            },
+            {
+                "stepId": "STEP68",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t79.inf",
+                "time": 1644038022522
+            },
+            {
+                "stepId": "STEP69",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t80.inf",
+                "time": 1644038023050
+            },
+            {
+                "stepId": "STEP70",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t81.inf",
+                "time": 1644038023514
+            },
+            {
+                "stepId": "STEP71",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t82.inf",
+                "time": 1644038024002
+            },
+            {
+                "stepId": "STEP72",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t83.inf",
+                "time": 1644038024505
+            },
+            {
+                "stepId": "STEP73",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t84.inf",
+                "time": 1644038024983
+            },
+            {
+                "stepId": "STEP74",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t85.inf",
+                "time": 1644038025463
+            },
+            {
+                "stepId": "STEP75",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t86.inf",
+                "time": 1644038025976
+            },
+            {
+                "stepId": "STEP76",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t87.inf",
+                "time": 1644038026468
+            },
+            {
+                "stepId": "STEP77",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t88.inf",
+                "time": 1644038026973
+            },
+            {
+                "stepId": "STEP78",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t89.inf",
+                "time": 1644038027447
+            },
+            {
+                "stepId": "STEP79",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t90.inf",
+                "time": 1644038028110
+            },
+            {
+                "stepId": "STEP80",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t91.inf",
+                "time": 1644038028584
+            },
+            {
+                "stepId": "STEP81",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t92.inf",
+                "time": 1644038029004
+            },
+            {
+                "stepId": "STEP82",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t93.inf",
+                "time": 1644038029379
+            },
+            {
+                "stepId": "STEP83",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t94.inf",
+                "time": 1644038029644
+            },
+            {
+                "stepId": "STEP84",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t95.inf",
+                "time": 1644038029933
+            },
+            {
+                "stepId": "STEP85",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t96.inf",
+                "time": 1644038030203
+            },
+            {
+                "stepId": "STEP86",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t97.inf",
+                "time": 1644038030487
+            },
+            {
+                "stepId": "STEP87",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t98.inf",
+                "time": 1644038030749
+            },
+            {
+                "stepId": "STEP88",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t99.inf",
+                "time": 1644038031010
+            },
+            {
+                "stepId": "STEP89",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t100.inf",
+                "time": 1644038031278
+            },
+            {
+                "stepId": "STEP90",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t101.inf",
+                "time": 1644038031533
+            },
+            {
+                "stepId": "STEP91",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t102.inf",
+                "time": 1644038031801
+            },
+            {
+                "stepId": "STEP92",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t103.inf",
+                "time": 1644038032069
+            },
+            {
+                "stepId": "STEP93",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t104.inf",
+                "time": 1644038032367
+            },
+            {
+                "stepId": "STEP94",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t105.inf",
+                "time": 1644038032683
+            },
+            {
+                "stepId": "STEP95",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t106.inf",
+                "time": 1644038032935
+            },
+            {
+                "stepId": "STEP96",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t107.inf",
+                "time": 1644038033175
+            },
+            {
+                "stepId": "STEP97",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t108.inf",
+                "time": 1644038033435
+            },
+            {
+                "stepId": "STEP98",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t109.inf",
+                "time": 1644038033689
+            },
+            {
+                "stepId": "STEP99",
+                "stepName": "Custom Request: Unit%2084%20George%20Street%2C%20BATHURST%20%20NSW%20%20279",
+                "infFile": "t111.inf",
+                "time": 1644038033984
+            },
+            {
+                "stepId": "STEP100",
+                "stepName": "Custom Request: AUS%7C9a82b8a7-931e-4496-a026-b4baffaecacb%7C7.730uOAUSHAzlBwAAAAAIAgEAAAAADXjb0AAgAAAAAAEAVW5pdAAAAP..UwAAAAD.....AAAAAAAAAAAAAAAAAAAAVW5pdCA4NCBHZW9yZ2UgU3RyZWV0LCBCQVRIVVJTVCAgTlNXICAyNzk1AAAAAAA-$42",
+                "infFile": "t121.inf",
+                "time": 1644038034319
+            },
+            {
+                "stepId": "STEP101",
+                "stepName": "Custom Request: save_4",
+                "infFile": "t122.inf",
+                "time": 1644038034561
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_U",
+                "rawStartTime": 1644038018677,
+                "rawEndTime": 1644038019161,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004925251007080078
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Un",
+                "rawStartTime": 1644038019255,
+                "rawEndTime": 1644038019459,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005586385726928711
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Uni",
+                "rawStartTime": 1644038019551,
+                "rawEndTime": 1644038019953,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0066068172454833988
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit",
+                "rawStartTime": 1644038020048,
+                "rawEndTime": 1644038020329,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0040760040283203129
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit ",
+                "rawStartTime": 1644038020422,
+                "rawEndTime": 1644038020625,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004517078399658203
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 8",
+                "rawStartTime": 1644038020719,
+                "rawEndTime": 1644038020875,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005175590515136719
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84",
+                "rawStartTime": 1644038020970,
+                "rawEndTime": 1644038021125,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003241300582885742
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 ",
+                "rawStartTime": 1644038021218,
+                "rawEndTime": 1644038021406,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004613637924194336
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 G",
+                "rawStartTime": 1644038021500,
+                "rawEndTime": 1644038021675,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003555774688720703
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 Ge",
+                "rawStartTime": 1644038021773,
+                "rawEndTime": 1644038021945,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0034792423248291017
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 Geo",
+                "rawStartTime": 1644038022040,
+                "rawEndTime": 1644038022536,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006300449371337891
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 Geor",
+                "rawStartTime": 1644038022630,
+                "rawEndTime": 1644038023054,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008771657943725586
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 Georg",
+                "rawStartTime": 1644038023148,
+                "rawEndTime": 1644038023521,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005067110061645508
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George",
+                "rawStartTime": 1644038023617,
+                "rawEndTime": 1644038024008,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004481315612792969
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George ",
+                "rawStartTime": 1644038024100,
+                "rawEndTime": 1644038024517,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004332780838012695
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George S",
+                "rawStartTime": 1644038024610,
+                "rawEndTime": 1644038024986,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003923177719116211
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George St",
+                "rawStartTime": 1644038025081,
+                "rawEndTime": 1644038025470,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005142688751220703
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Str",
+                "rawStartTime": 1644038025564,
+                "rawEndTime": 1644038025982,
+                "thinkTime": 0.0,
+                "wastedTime": 0.014400243759155274
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Stre",
+                "rawStartTime": 1644038026075,
+                "rawEndTime": 1644038026481,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0045053958892822269
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Stree",
+                "rawStartTime": 1644038026574,
+                "rawEndTime": 1644038026987,
+                "thinkTime": 0.0,
+                "wastedTime": 0.014163970947265625
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street",
+                "rawStartTime": 1644038027081,
+                "rawEndTime": 1644038027458,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003640890121459961
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street,",
+                "rawStartTime": 1644038027553,
+                "rawEndTime": 1644038028114,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004742622375488281
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, ",
+                "rawStartTime": 1644038028209,
+                "rawEndTime": 1644038028598,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005489826202392578
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, B",
+                "rawStartTime": 1644038028692,
+                "rawEndTime": 1644038029018,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0038785934448242189
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BA",
+                "rawStartTime": 1644038029113,
+                "rawEndTime": 1644038029394,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00413060188293457
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BAT",
+                "rawStartTime": 1644038029487,
+                "rawEndTime": 1644038029658,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0033321380615234377
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATH",
+                "rawStartTime": 1644038029753,
+                "rawEndTime": 1644038029938,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004481315612792969
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATHU",
+                "rawStartTime": 1644038030032,
+                "rawEndTime": 1644038030220,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0042705535888671879
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATHUR",
+                "rawStartTime": 1644038030314,
+                "rawEndTime": 1644038030500,
+                "thinkTime": 0.0,
+                "wastedTime": 0.014789819717407227
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATHURS",
+                "rawStartTime": 1644038030595,
+                "rawEndTime": 1644038030752,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003297567367553711
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATHURST",
+                "rawStartTime": 1644038030846,
+                "rawEndTime": 1644038031017,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007900238037109375
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATHURST ",
+                "rawStartTime": 1644038031111,
+                "rawEndTime": 1644038031285,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0033998489379882814
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATHURST  ",
+                "rawStartTime": 1644038031379,
+                "rawEndTime": 1644038031547,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004271507263183594
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATHURST  N",
+                "rawStartTime": 1644038031642,
+                "rawEndTime": 1644038031816,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0040035247802734379
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATHURST  NS",
+                "rawStartTime": 1644038031910,
+                "rawEndTime": 1644038032083,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0034971237182617189
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATHURST  NSW",
+                "rawStartTime": 1644038032176,
+                "rawEndTime": 1644038032381,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012964487075805664
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATHURST  NSW ",
+                "rawStartTime": 1644038032474,
+                "rawEndTime": 1644038032691,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0054242610931396488
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATHURST  NSW  ",
+                "rawStartTime": 1644038032786,
+                "rawEndTime": 1644038032940,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0032892227172851564
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATHURST  NSW  2",
+                "rawStartTime": 1644038033033,
+                "rawEndTime": 1644038033189,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0037457942962646486
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATHURST  NSW  27",
+                "rawStartTime": 1644038033283,
+                "rawEndTime": 1644038033440,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003402233123779297
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATHURST  NSW  279",
+                "rawStartTime": 1644038033533,
+                "rawEndTime": 1644038033705,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0036857128143310549
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_By_Unit 84 George Street, BATHURST  NSW  2795",
+                "rawStartTime": 1644038033814,
+                "rawEndTime": 1644038033986,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004075050354003906
+            },
+            {
+                "transactionName": "S01_T08_SearchResidentialAddress_ClickOk",
+                "rawStartTime": 1644038018568,
+                "rawEndTime": 1644038034578,
+                "thinkTime": 0.0,
+                "wastedTime": 0.26144886016845705
+            }
+        ]
+    },
+    {
+        "actionName": "EnterContactDetails",
+        "steps": [
+            {
+                "stepId": "STEP102",
+                "stepName": "Custom Request: save_5",
+                "infFile": "t123.inf",
+                "time": 1644038039948
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T09_EnterContactDetails_ClickOk",
+                "rawStartTime": 1644038039646,
+                "rawEndTime": 1644038039961,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004852771759033203
+            }
+        ]
+    },
+    {
+        "actionName": "EnterTFNDetails",
+        "steps": [
+            {
+                "stepId": "STEP103",
+                "stepName": "Custom Request: save_6",
+                "infFile": "t124.inf",
+                "time": 1644038045236
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T10_ClickYesOnTFN_ClickOK",
+                "rawStartTime": 1644038045039,
+                "rawEndTime": 1644038045241,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004202842712402344
+            }
+        ]
+    },
+    {
+        "actionName": "EnterForeignTaxDetails",
+        "steps": [
+            {
+                "stepId": "STEP104",
+                "stepName": "Url: individual",
+                "infFile": "t125.inf",
+                "time": 1644038050399
+            },
+            {
+                "stepId": "STEP105",
+                "stepName": "Custom Request: save_7",
+                "infFile": "t126.inf",
+                "time": 1644038050565
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T11_Select_No_On_ForeignTaxResident_ClickOk",
+                "rawStartTime": 1644038050312,
+                "rawEndTime": 1644038050579,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00847315788269043
+            }
+        ]
+    },
+    {
+        "actionName": "EnterIncomeRelatedInputs",
+        "steps": [
+            {
+                "stepId": "STEP106",
+                "stepName": "Custom Request: save_8",
+                "infFile": "t127.inf",
+                "time": 1644038055923
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T12_SelectExtraDetailsFromTheDropDownRelatedToIncome_ClickOk",
+                "rawStartTime": 1644038055645,
+                "rawEndTime": 1644038055926,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0067081451416015629
+            }
+        ]
+    },
+    {
+        "actionName": "ApplicantIdentityVerification",
+        "steps": [
+            {
+                "stepId": "STEP107",
+                "stepName": "Custom Request: register",
+                "infFile": "t129.inf",
+                "time": 1644038062843
+            },
+            {
+                "stepId": "STEP108",
+                "stepName": "Custom Request: token",
+                "infFile": "t131.inf",
+                "time": 1644038063107
+            },
+            {
+                "stepId": "STEP109",
+                "stepName": "Custom Request: getsources",
+                "infFile": "t132.inf",
+                "time": 1644038063777
+            },
+            {
+                "stepId": "STEP110",
+                "stepName": "Custom Request: getfields",
+                "infFile": "t133.inf",
+                "time": 1644038064226
+            },
+            {
+                "stepId": "STEP111",
+                "stepName": "Custom Request: log",
+                "infFile": "t134.inf",
+                "time": 1644038064324
+            },
+            {
+                "stepId": "STEP112",
+                "stepName": "Custom Request: save_9",
+                "infFile": "t135.inf",
+                "time": 1644038069568
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T13_SelectCheckBoxToVerifyIdentityByCreditBureau_ClickOk",
+                "rawStartTime": 1644038061019,
+                "rawEndTime": 1644038064326,
+                "thinkTime": 0.0,
+                "wastedTime": 0.022697925567626954
+            },
+            {
+                "transactionName": "S01_T14_ClickOnSkipIDCheck_ClickOk",
+                "rawStartTime": 1644038069377,
+                "rawEndTime": 1644038069579,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0038690567016601564
+            }
+        ]
+    },
+    {
+        "actionName": "Declaration",
+        "steps": [
+            {
+                "stepId": "STEP113",
+                "stepName": "Custom Request: save_10",
+                "infFile": "t136.inf",
+                "time": 1644038074870
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T15_SelectCheckBoxForDeclarations_ClickOk",
+                "rawStartTime": 1644038074628,
+                "rawEndTime": 1644038074879,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004781007766723633
+            }
+        ]
+    },
+    {
+        "actionName": "CancelApplication",
+        "steps": [
+            {
+                "stepId": "STEP114",
+                "stepName": "Custom Request: cancel",
+                "infFile": "t137.inf",
+                "time": 1644038080072
+            },
+            {
+                "stepId": "STEP115",
+                "stepName": "Url: amp-saver-account_2",
+                "infFile": "t138.inf",
+                "time": 1644038080673
+            },
+            {
+                "stepId": "STEP116",
+                "stepName": "Custom Request: id_3",
+                "infFile": "t139.inf",
+                "time": 1644038080904
+            },
+            {
+                "stepId": "STEP117",
+                "stepName": "Custom Request: delivery_8",
+                "infFile": "t140.inf",
+                "time": 1644038081150
+            },
+            {
+                "stepId": "STEP118",
+                "stepName": "Url: amp.asx_4",
+                "infFile": "t141.inf",
+                "time": 1644038081317
+            },
+            {
+                "stepId": "STEP119",
+                "stepName": "Url: dest5.html_2",
+                "infFile": "t142.inf",
+                "time": 1644038081511
+            },
+            {
+                "stepId": "STEP120",
+                "stepName": "Custom Request: rb_bf96747ztk_17",
+                "infFile": "t143.inf",
+                "time": 1644038081716
+            },
+            {
+                "stepId": "STEP121",
+                "stepName": "Custom Request: rb_bf96747ztk_18",
+                "infFile": "t144.inf",
+                "time": 1644038081841
+            },
+            {
+                "stepId": "STEP122",
+                "stepName": "Custom Request: rb_bf96747ztk_19",
+                "infFile": "t145.inf",
+                "time": 1644038081940
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T16_ClickCancelApplication",
+                "rawStartTime": 1644038079953,
+                "rawEndTime": 1644038081951,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07715630531311035
+            }
+        ]
+    }
+]

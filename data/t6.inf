@@ -1,0 +1,11 @@
+[t6]
+SnapshotXmlFile=snapshot_6.xml
+FileName1=t6.jfif
+URL1=https://www.amp.com.au/content/dam/amp-au/images/campaign/brand-Campaign-ProductPromo-488x276.jpg
+Total=1
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t6_ResponseHeader.txt
+ContentType=image/jpeg
+FrameIndex1=0
+UseFrameIndex=1

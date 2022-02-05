@@ -1,0 +1,30 @@
+var tempScrollTop = $(window).scrollTop();
+
+function showAjaxLoader() {
+	$('.preloader__overlay').show();
+	tempScrollTop = $(window).scrollTop();
+	 $('html, body').animate({
+		 scrollTop: $(".preloader__overlay").offset().top
+	 }, 100);
+
+}
+
+function hideAjaxLoader() {
+	$('.preloader__overlay').hide();
+}
+
+function hideAjaxLoaderAndScrollBack() {
+	hideAjaxLoader();
+    $('html, body').animate({
+    	scrollTop: tempScrollTop
+    }, 100);
+}
+
+function cancelForm() {
+	
+	if (confirm('You have not completed the form. If you choose to continue, any updates you\'ve made will be lost. What would you like to do?')) {
+		window.history.back();
+	} else {
+		// nothing
+	};
+}

@@ -1,0 +1,5 @@
+"{\"title\":\"Mr\",\"firstName\":\"James\",\"middleNames\":\"\",\"lastName\":\"Dummy\",\"dateOf"
+"Birth\":\"14/04/1992\",\"email\":\"xyz@abc.com\",\"address\":{\"country\":\"AU\",\"state\":\"N"
+"SW\",\"streetName\":\"George\",\"flatNumber\":\"\",\"streetNumber\":\"84\",\"suburb\":\"Bathur"
+"st\",\"postcode\":\"2795\",\"streetType\":\"ST\",\"townCity\":\"\"},\"extraData\":[{\"name\":\""
+"dnb-credit-header-consent-given\",\"value\":\"true\"}]}"

@@ -1,0 +1,32 @@
+
+
+<h2 id="greenid-source-title-heading">{{{sourceTitle}}}</h2>
+<a class="greenid-modal-launch" data-target="#greenid-source-help" tabindex="0" role="button">
+	<span class="greenid-sr-only">help for the current ID source</span>
+	<span class="glyphicon glyphicon-question-sign"></span>
+</a>
+<div class="greenid-modal fade" tabindex="-1" id="greenid-source-help" aria-hidden="true" style="display: none;">
+	<span class="greenid-sr-only" data-action="greenid-dialog-start" tabindex="-1">Dialog start</span>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="greenid-modal-close greenid-x" aria-label="close">&times;</button>
+          <h4 class="modal-title" id="greenid-modal-label">{{infoTitle}}</h4>
+        </div>
+        <div class="modal-body">
+        	<p>{{{infoText}}}</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default greenid-modal-close">Close</button>
+        </div>
+        <span class="greenid-sr-only" data-action="greenid-dialog-end" tabindex="0">Dialog end</span>
+      </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">		
+	greenidJQuery(document).ready(function() {
+		greenidUiBehaviours.showHideInfoModals();
+	});
+</script>

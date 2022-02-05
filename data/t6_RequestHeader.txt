@@ -1,0 +1,16 @@
+GET /?api-key=1a31485dfcd75b472742d9f7e224d7057a5d9ba6ce95eee1ee785c30 HTTP/1.1
+Host: api.ipdata.co
+Connection: keep-alive
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="97", "Chromium";v="97"
+Accept: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: https://www.amp.com.au
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.amp.com.au/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+

@@ -1,0 +1,2 @@
+"{\"accountId\":\"amp_au\",\"apiCode\":\"F2x-L5D-7wW-EY4\",\"verificationToken\":\"d86d1ee104a9"
+"ba25946c4ae8045e6f05cda323a6\",\"origin\":\"simpleui\"}"

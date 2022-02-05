@@ -1,0 +1,15 @@
+HTTP/2.0 200
+Status: 200
+date: Sat, 05 Feb 2022 05:12:44 GMT
+content-type: application/json; charset=utf-8
+access-control-allow-methods: GET,OPTIONS
+access-control-expose-headers: Content-Type, Content-Length, Content-Range
+access-control-max-age: 86400
+vary: Accept-Encoding, Origin, Authorization
+access-control-allow-credentials: true
+access-control-allow-headers: Content-Type, Content-Length, Origin, Authorization, If-None-Match, If-Modified-Since
+access-control-allow-origin: https://www.amp.com.au
+etag: W/"48d613f62794abdab95d3e0fc3fa18c0"
+cache-control: private, max-age=43, must-revalidate
+content-encoding: gzip
+

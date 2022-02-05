@@ -1,0 +1,13 @@
+[t16]
+SnapshotXmlFile=snapshot_16.xml
+FileName1=t16.gif
+URL1=https://www.facebook.com/tr/?id=2059266084330689&ev=PageView&dl=https%3A%2F%2Fwww.amp.com.au%2F&rl=https%3A%2F%2Fwww.amp.com.au%2F&if=false&ts=1643723249866&sw=1536&sh=960&v=2.9.52&r=stable&ec=0&o=28&fbp=fb.2.1643723244775.1957297030&it=1643723239745&coo=false&exp=p1&rqm=GET
+Total=2
+RequestHeaderFile=t16_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t16_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1
+FileName2=t16.html
+URL2=https://api.ipify.org/?format=jsonp&callback=?

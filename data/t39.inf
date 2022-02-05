@@ -1,0 +1,11 @@
+[t39]
+FileName1=t39.txt
+URL1=https://www.amp.com.au/rb_bf96747ztk?type=js3&sn=v_4_srv_2_sn_CJ59IOVR9DVHC7U82JIF78CU46Q2H7L9_perc_100000_ol_0_mul_1_app-3Acd4697ba1bc4a478_1&svrid=2&flavor=post&vi=TAEGRSBDMHKOUBPKPGPWVQAPOVFTIFIK-0&modifiedSince=1643117181505&rf=https%3A%2F%2Fwww.amp.com.au%2Fbanking%2Fsavings-accounts&bp=3&app=cd4697ba1bc4a478&crc=1674882816&en=o0bm09bh&end=1
+Total=1
+RequestHeaderFile=t39_RequestHeader.txt
+RequestBodyFile=t39_RequestBody.txt
+ResponseHeaderFile=t39_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_39.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

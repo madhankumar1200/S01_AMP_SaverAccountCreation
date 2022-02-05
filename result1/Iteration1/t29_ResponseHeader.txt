@@ -1,0 +1,13 @@
+HTTP/2.0 204
+Status: 204
+cache-control: no-cache, must-revalidate
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+set-cookie: MUID=3BD34059B52C6C163334511BB4B36DFB; domain=.bing.com; expires=Thu, 02-Mar-2023 05:12:52 GMT; path=/; SameSite=None; Secure; Priority=High;
+set-cookie: MR=0; domain=bat.bing.com; expires=Sat, 12-Feb-2022 05:12:52 GMT; path=/; SameSite=None; Secure;
+access-control-allow-origin: *
+x-cache: CONFIG_NOCACHE
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+x-msedge-ref: Ref A: 48EB30F3807B4AEC9F825333A990E86F Ref B: SYDEDGE0415 Ref C: 2022-02-05T05:12:52Z
+date: Sat, 05 Feb 2022 05:12:52 GMT
+

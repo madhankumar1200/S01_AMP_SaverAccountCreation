@@ -1,0 +1,11 @@
+[t84]
+FileName1=t84.json
+URL1=https://secure.amp.com.au/ddc/public/api/forms/cancel?formId=8810578662&checkSecurityToken=e718de77-e0e2-48ab-a369-6f3f4b280b0e&formName=SaverAccount&checkDob=14/04/1992&checkName=Dummy
+Total=1
+RequestHeaderFile=t84_RequestHeader.txt
+RequestBodyFile=t84_RequestBody.txt
+ResponseHeaderFile=t84_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_84.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

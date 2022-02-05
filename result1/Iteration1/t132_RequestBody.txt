@@ -1,0 +1,2 @@
+"{"accountId":"amp_au","apiCode":"F2x-L5D-7wW-EY4","verificationToken":"2f5c5704853523533ca898c"
+"069af1a3127c5287b","origin":"simpleui"}"

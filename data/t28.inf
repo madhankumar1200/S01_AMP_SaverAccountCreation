@@ -1,0 +1,15 @@
+[t28]
+SnapshotXmlFile=snapshot_28.xml
+FileName1=t28.gif
+URL1=https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Tue%2C%2001%20Feb%202022%2014%3A03%3A17%20GMT&n=-11d&b=Banking%20-%20AMP%20Bank&.yp=10092149&f=https%3A%2F%2Fwww.amp.com.au%2Fbanking&e=https%3A%2F%2Fwww.amp.com.au%2F&enc=UTF-8&yv=1.12.0&tagmgr=adobe
+Total=3
+RequestHeaderFile=t28_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t28_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1
+FileName2=t28_MultiNoun.html
+URL2=https://d.la1-c1-syd.salesforceliveagent.com/chat/rest/System/MultiNoun.jsonp?nouns=VisitorId,Settings&VisitorId.prefix=Visitor&Settings.prefix=Visitor&Settings.buttonIds=[5732P000000004W]&Settings.updateBreadcrumb=1&Settings.urlPrefix=undefined&callback=liveagent._.handlePing&deployment_id=5722P000000004b&org_id=00D7F0000001MC1&version=51
+FileName3=t28_0.html
+URL3=https://bat.bing.com/action/0?ti=16012365&Ver=2&mid=8280baf4-1744-4f7d-954b-6baaad95bcb6&sid=7c784480836511ecb938af507a963ec8&vid=7c7a99f0836511ec8d66cb32184140ff&vids=0&uach=pv%3D14.0.0&pi=918639831&lg=en-US&sw=1536&sh=960&sc=24&tl=Banking%20-%20AMP%20Bank&p=https%3A%2F%2Fwww.amp.com.au%2Fbanking&r=https%3A%2F%2Fwww.amp.com.au%2F&lt=4725&mtp=10&evt=pageLoad&msclkid=N&sv=1&rn=570836

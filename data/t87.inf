@@ -1,0 +1,11 @@
+[t87]
+FileName1=t87.json
+URL1=https://ampserviceslimited.tt.omtrdc.net/rest/v1/delivery?client=ampserviceslimited&sessionId=c0e628ff17d542ed96155f80dfbda007&version=2.3.2
+Total=1
+RequestHeaderFile=t87_RequestHeader.txt
+RequestBodyFile=t87_RequestBody.txt
+ResponseHeaderFile=t87_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_87.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

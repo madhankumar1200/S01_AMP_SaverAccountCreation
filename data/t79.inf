@@ -1,0 +1,17 @@
+[t79]
+FileName1=t79.json
+URL1=https://simpleui-au.vixverify.com/df/getsources
+Total=4
+RequestHeaderFile=t79_RequestHeader.txt
+RequestBodyFile=t79_RequestBody.txt
+ResponseHeaderFile=t79_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_79.xml
+FileName2=t79_greenidui_privsec_bdm.min.html
+URL2=https://simpleui-au.vixverify.com/df/javascripts/greenidui_privsec_bdm.min.js
+FileName3=t79_intro.txt
+URL3=https://simpleui-au.vixverify.com/df/assets/templates/intro.hb?_=1643726167719
+FileName4=t79_sourcelist.txt
+URL4=https://simpleui-au.vixverify.com/df/assets/templates/sourcelist.hb?_=1643726167720
+[ProtocolInfo]
+ProtocolId=QTWeb

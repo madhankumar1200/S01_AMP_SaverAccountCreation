@@ -1,0 +1,389 @@
+Virtual User Script started at: 5/02/2022 4:07:39 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.2.0 for Windows 10; build 692 (Oct 18 2021 11:59:59)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "E:\Madhan\S01_AMP_SaverAccountCreation\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action LaunchHomePage.
+LaunchHomePage.c(5): web_set_sockets_option started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(5): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(7): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(7): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(9): web_reg_find started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(9): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+LaunchHomePage.c(12): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(12): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(15): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(15): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(18): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(18): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(21): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(21): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(24): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(24): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(27): web_add_auto_header("User-Agent") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(27): web_add_auto_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(30): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(30): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(33): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(33): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(36): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(36): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(40): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(40): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+LaunchHomePage.c(51): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(51): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+LaunchHomePage.c(62): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(62): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+LaunchHomePage.c(73): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(73): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+LaunchHomePage.c(84): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(84): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+LaunchHomePage.c(94): Notify: Transaction "S01_T00_Launch_AMP_HomePage" started.
+LaunchHomePage.c(96): web_url("amp.com.au") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(96): Redirecting "https://amp.com.au/" (redirection depth is 0)  	[MsgId: MMSG-26694]
+LaunchHomePage.c(96): To location "https://www.amp.com.au/"  	[MsgId: MMSG-26693]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/wps/myportal/sec/ruxitagentjs_ICA27Vfghjqrux_10231211201155045.js" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://assets.adobedtm.com/30cb14f656a0/7a08285d48a4/launch-36c302166c9d.min.js" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/etc/designs/amp-au/clientlibs/clientlib-site.css" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/etc.clientlibs/clientlibs/granite/jquery.js" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/etc.clientlibs/clientlibs/granite/utils.js" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/etc.clientlibs/clientlibs/granite/jquery/granite.js" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/etc/designs/amp-au/clientlibs/swiftype-libs.js" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/etc/designs/amp/clientLibraries/icons-libs.css" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/etc/designs/amp-au/clientlibs/legacy-nps.css" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.google.com/recaptcha/api.js?render=6Lf1YKQUAAAAAK3RIImnFOQrks8gZnrC7pObqn5q" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/data/icons/amp-logo-reversed.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/data/icons/amp-logo.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/images/banking-hub/banners/1920x440_girlpiggybank.jpg.ampaurendition.1920.0.jpg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/Super1.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/relaxation.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/Home%20loans.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/Banking1.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/hand-and-coin.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/piggy-bank-clock.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/smart-money.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/Investments1.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/umbrella.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/images/financial-hub/grow-my-wealth/oi-menu-sharemarket-falls.jpg.ampaurendition.1920.0.jpg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/images/financial-hub/manage-my-money/MENU_buynowpaylater22.jpg.ampaurendition.1920.0.jpg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/images/financial-hub/manage-my-money/MENU_LNY22.jpg.ampaurendition.1920.0.jpg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/Services.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/FAQs.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/Tools-and-calculators.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://yourir.info/61b218eca79bef95.js" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/etc/designs/amp-au/clientlibs/clientlib-site.js" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/data/icons/call-us.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/data/icons/faq.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/data/icons/find-a-form.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/data/icons/get-advice.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://www.amp.com.au/content/dam/amp-au/data/illustrations/Cookies.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Found resource "https://ajax.googleapis.com/ajax/libs/webfont/1.6/webfont.js" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(96): Notify: Saving Parameter "c_RpId = 501404210".
+LaunchHomePage.c(96): Notify: Saving Parameter "c_ModifiedSince = 1643756790764".
+LaunchHomePage.c(96): Notify: Saving Parameter "c_AppID = 61b218eca79bef95".
+LaunchHomePage.c(96): Notify: Saving Parameter "c_RenderCaptchaID = 6Lf1YKQUAAAAAK3RIImnFOQrks8gZnrC7pObqn5q".
+LaunchHomePage.c(96): Notify: Saving Parameter "c_App = cd4697ba1bc4a478".
+LaunchHomePage.c(96): Registered web_reg_find successful for "Text=AMP – Banking, home loans, super, retirement &amp; financial advice" (count=1)  	[MsgId: MMSG-26364]
+LaunchHomePage.c(96): web_url("amp.com.au") was successful, 1414085 body bytes, 28434 header bytes, 115 chunking overhead bytes  	[MsgId: MMSG-26385]
+LaunchHomePage.c(106): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(106): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(109): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(109): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(112): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(112): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(115): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(115): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+LaunchHomePage.c(115): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+LaunchHomePage.c(118): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(118): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(122): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(122): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+LaunchHomePage.c(132): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(132): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+LaunchHomePage.c(142): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(142): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+LaunchHomePage.c(151): web_custom_request("id") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(151): Notify: Saving Parameter "c_Dblob = 6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y".
+LaunchHomePage.c(151): Notify: Saving Parameter "c_MarketId = 41701021908944059293054469362754362117".
+LaunchHomePage.c(151): Notify: Saving Parameter "c_Duuid = 41528845412414461393035012827853556951".
+LaunchHomePage.c(151): web_custom_request("id") was successful, 319 body bytes, 815 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(163): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(163): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(166): web_custom_request("rb_bf96747ztk") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(166): Notify: Parameter Substitution: parameter "c_ModifiedSince" =  "1643756790764"
+LaunchHomePage.c(166): Notify: Parameter Substitution: parameter "c_App" =  "cd4697ba1bc4a478"
+LaunchHomePage.c(166): Notify: Parameter Substitution: parameter "c_MarketId" =  "41701021908944059293054469362754362117"
+LaunchHomePage.c(166): Notify: Parameter Substitution: parameter "c_RpId" =  "501404210"
+LaunchHomePage.c(166): Notify: Parameter Substitution: parameter "c_App" =  "cd4697ba1bc4a478"
+LaunchHomePage.c(166): web_custom_request("rb_bf96747ztk") was successful, 135 body bytes, 730 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(180): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(180): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(183): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(183): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
+LaunchHomePage.c(183): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(185): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(185): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(188): web_custom_request("delivery") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(188): Warning: The string '"width":1536,"height":960,"orientation":"landscape","colorDepth":24,"pixelRatio":2.5' with parameter delimiters is not a parameter.
+LaunchHomePage.c(188): Warning: The string '"width":1536,"height":841' with parameter delimiters is not a parameter.
+LaunchHomePage.c(188): Warning: The string '"host":"www.amp.com.au","webGLRenderer":"ANGLE (Intel, Intel(R) UHD Graphics Direct3D11 vs_5_0 ps_5_0, D3D11-27.20.100.9749)"' with parameter delimiters is not a parameter.
+LaunchHomePage.c(188): Warning: The string '"url":"https://www.amp.com.au/","referringUrl":""' with parameter delimiters is not a parameter.
+LaunchHomePage.c(188): Warning: The string '"logging":"server_side","supplementalDataId":"39897F9170DE4775-1AB111AF9C34427C","trackingServer":"amp.d2.sc.omtrdc.net","trackingServerSecure":"amp.d2.sc.omtrdc.net"' with parameter delimiters is not a parameter.
+LaunchHomePage.c(188): Warning: The string '"pageName":"home"' with parameter delimiters is not a parameter.
+LaunchHomePage.c(188): Warning: The string '"pageName":"home"' with parameter delimiters is not a parameter.
+LaunchHomePage.c(188): web_custom_request("delivery") was successful, 264 body bytes, 392 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(202): web_reg_find started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(202): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+LaunchHomePage.c(205): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(205): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(208): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(208): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(211): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(211): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(214): web_url("dest5.html") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(214): Registered web_reg_find successful for "Text=Adobe AudienceManager" (count=1)  	[MsgId: MMSG-26364]
+LaunchHomePage.c(214): web_url("dest5.html") was successful, 2791 body bytes, 663 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(224): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(224): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(227): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(227): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(230): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(230): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(233): web_url("api.ipdata.co") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(233): web_url("api.ipdata.co") was successful, 590 body bytes, 441 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(243): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(243): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(246): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(246): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(249): web_custom_request("rb_bf96747ztk_2") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(249): Notify: Parameter Substitution: parameter "c_ModifiedSince" =  "1643756790764"
+LaunchHomePage.c(249): Notify: Parameter Substitution: parameter "c_App" =  "cd4697ba1bc4a478"
+LaunchHomePage.c(249): Notify: Parameter Substitution: parameter "c_MarketId" =  "41701021908944059293054469362754362117"
+LaunchHomePage.c(249): Notify: Parameter Substitution: parameter "c_RpId" =  "501404210"
+LaunchHomePage.c(249): Notify: Parameter Substitution: parameter "c_RpId" =  "501404210"
+LaunchHomePage.c(249): Notify: Parameter Substitution: parameter "c_RenderCaptchaID" =  "6Lf1YKQUAAAAAK3RIImnFOQrks8gZnrC7pObqn5q"
+LaunchHomePage.c(249): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(249): Notify: Parameter Substitution: parameter "c_MarketId" =  "41701021908944059293054469362754362117"
+LaunchHomePage.c(249): Notify: Parameter Substitution: parameter "c_App" =  "cd4697ba1bc4a478"
+LaunchHomePage.c(249): web_custom_request("rb_bf96747ztk_2") was successful, 135 body bytes, 730 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(269): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(269): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
+LaunchHomePage.c(269): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(271): web_reg_find started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(271): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+LaunchHomePage.c(274): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(274): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(277): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(277): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(280): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(280): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(283): web_url("www.amp.com.au") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/wps/myportal/sec/ruxitagentjs_ICA27Vfghjqrux_10231211201155045.js" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Resource "https://assets.adobedtm.com/30cb14f656a0/7a08285d48a4/launch-36c302166c9d.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/etc/designs/amp-au/clientlibs/clientlib-site.css" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/etc.clientlibs/clientlibs/granite/jquery.js" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/etc.clientlibs/clientlibs/granite/utils.js" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/etc.clientlibs/clientlibs/granite/jquery/granite.js" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/etc/designs/amp-au/clientlibs/swiftype-libs.js" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/etc/designs/amp/clientLibraries/icons-libs.css" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/etc/designs/amp-au/clientlibs/legacy-nps.css" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Resource "https://www.google.com/recaptcha/api.js?render=6Lf1YKQUAAAAAK3RIImnFOQrks8gZnrC7pObqn5q" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/data/icons/amp-logo-reversed.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/data/icons/amp-logo.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/images/banking-hub/banners/1920x440_girlpiggybank.jpg.ampaurendition.1920.0.jpg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/Super1.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/relaxation.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/Home%20loans.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/Banking1.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/hand-and-coin.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/piggy-bank-clock.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/smart-money.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/Investments1.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/umbrella.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/images/financial-hub/grow-my-wealth/oi-menu-sharemarket-falls.jpg.ampaurendition.1920.0.jpg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/images/financial-hub/manage-my-money/MENU_buynowpaylater22.jpg.ampaurendition.1920.0.jpg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/images/financial-hub/manage-my-money/MENU_LNY22.jpg.ampaurendition.1920.0.jpg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/Services.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/FAQs.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/illustrations/Tools-and-calculators.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Resource "https://yourir.info/61b218eca79bef95.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/etc/designs/amp-au/clientlibs/clientlib-site.js" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/data/icons/call-us.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/data/icons/faq.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/data/icons/find-a-form.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/data/icons/get-advice.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Found resource "https://www.amp.com.au/content/dam/amp-au/data/illustrations/Cookies.svg" in HTML "https://www.amp.com.au/"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(283): Resource "https://ajax.googleapis.com/ajax/libs/webfont/1.6/webfont.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+LaunchHomePage.c(283): Registered web_reg_find successful for "Text=AMP – Banking, home loans, super, retirement &amp; financial advice" (count=1)  	[MsgId: MMSG-26364]
+LaunchHomePage.c(283): web_url("www.amp.com.au") was successful, 1298530 body bytes, 25283 header bytes, 146 chunking overhead bytes  	[MsgId: MMSG-26385]
+LaunchHomePage.c(293): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(293): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(296): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(296): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(299): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(299): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(302): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(302): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(305): web_url("amp.asx") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(305): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(305): web_url("amp.asx") was successful, 535 body bytes, 641 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(315): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(315): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
+LaunchHomePage.c(315): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(317): web_url("amp.nzx") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(317): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(317): web_url("amp.nzx") was successful, 514 body bytes, 588 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(327): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(327): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(330): web_url("amp.asx_2") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(330): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(330): Resource "https://yourir.info/api/v5/symbols/amp.asx?appID=61b218eca79bef95&liveness=delayed" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+LaunchHomePage.c(340): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(340): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
+LaunchHomePage.c(340): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(342): web_custom_request("delivery_2") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(342): Warning: The string '"width":1536,"height":960,"orientation":"landscape","colorDepth":24,"pixelRatio":2.5' with parameter delimiters is not a parameter.
+LaunchHomePage.c(342): Warning: The string '"width":1536,"height":841' with parameter delimiters is not a parameter.
+LaunchHomePage.c(342): Warning: The string '"host":"www.amp.com.au","webGLRenderer":"ANGLE (Intel, Intel(R) UHD Graphics Direct3D11 vs_5_0 ps_5_0, D3D11-27.20.100.9749)"' with parameter delimiters is not a parameter.
+LaunchHomePage.c(342): Warning: The string '"url":"https://www.amp.com.au/","referringUrl":"https://www.amp.com.au/"' with parameter delimiters is not a parameter.
+LaunchHomePage.c(342): Notify: Parameter Substitution: parameter "c_MarketId" =  "41701021908944059293054469362754362117"
+LaunchHomePage.c(342): Notify: Parameter Substitution: parameter "c_Dblob" =  "6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y"
+LaunchHomePage.c(342): Warning: The string '"logging":"server_side","supplementalDataId":"5E54090A9222F1BA-0A28CD26753F4993","trackingServer":"amp.d2.sc.omtrdc.net","trackingServerSecure":"amp.d2.sc.omtrdc.net"' with parameter delimiters is not a parameter.
+LaunchHomePage.c(342): Warning: The string '"pageName":"home"' with parameter delimiters is not a parameter.
+LaunchHomePage.c(342): Warning: The string '"pageName":"home"' with parameter delimiters is not a parameter.
+LaunchHomePage.c(342): web_custom_request("delivery_2") was successful, 307 body bytes, 299 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(356): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(356): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(359): web_url("amp.nzx_2") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(359): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(359): Resource "https://yourir.info/api/v5/symbols/amp.nzx?appID=61b218eca79bef95&liveness=delayed" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+LaunchHomePage.c(369): web_reg_find started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(369): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+LaunchHomePage.c(372): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(372): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(375): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(375): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(378): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(378): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(381): web_url("anchor") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(381): Notify: Parameter Substitution: parameter "c_RenderCaptchaID" =  "6Lf1YKQUAAAAAK3RIImnFOQrks8gZnrC7pObqn5q"
+LaunchHomePage.c(381): Found resource "https://www.gstatic.com/recaptcha/releases/dPctOHA2ifhWm5WzFM_B5TjT/styles__ltr.css" in HTML "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lf1YKQUAAAAAK3RIImnFOQrks8gZnrC7pObqn5q&co=aHR0cHM6Ly93d3cuYW1wLmNvbS5hdTo0NDM.&hl=en&v=dPctOHA2ifhWm5WzFM_B5TjT&size=invisible&cb=4vsui6rq4c26"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(381): Found resource "https://www.gstatic.com/recaptcha/releases/dPctOHA2ifhWm5WzFM_B5TjT/recaptcha__en.js" in HTML "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lf1YKQUAAAAAK3RIImnFOQrks8gZnrC7pObqn5q&co=aHR0cHM6Ly93d3cuYW1wLmNvbS5hdTo0NDM.&hl=en&v=dPctOHA2ifhWm5WzFM_B5TjT&size=invisible&cb=4vsui6rq4c26"  	[MsgId: MMSG-26659]
+LaunchHomePage.c(381): Registered web_reg_find successful for "Text=reCAPTCHA" (count=25)  	[MsgId: MMSG-26364]
+LaunchHomePage.c(381): web_url("anchor") was successful, 187256 body bytes, 2886 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(391): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(391): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(394): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(394): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(397): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(397): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(400): web_remove_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(400): Previous automatically added web header for "sec-ch-ua" removed  	[MsgId: MMSG-26587]
+LaunchHomePage.c(400): web_remove/revert_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(402): web_remove_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(402): Previous automatically added web header for "sec-ch-ua-mobile" removed  	[MsgId: MMSG-26587]
+LaunchHomePage.c(402): web_remove/revert_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(404): web_remove_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(404): Previous automatically added web header for "sec-ch-ua-platform" removed  	[MsgId: MMSG-26587]
+LaunchHomePage.c(404): web_remove/revert_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(406): web_add_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(406): web_add_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(409): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(409): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(412): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(412): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(415): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(415): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(419): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(419): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+LaunchHomePage.c(429): web_url("NetPromoterScore") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(429): Notify: Saving Parameter "c_Sn = v_4_srv_3_sn_068571619813A9E5E6E7FA510BDD6BBE_perc_100000_ol_0_mul_1_app-3Acd4697ba1bc4a478_1".
+LaunchHomePage.c(429): web_url("NetPromoterScore") was successful, 19 body bytes, 1126 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(439): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(439): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(442): web_custom_request("rb_bf96747ztk_3") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(442): Notify: Parameter Substitution: parameter "c_Sn" =  "v_4_srv_3_sn_068571619813A9E5E6E7FA510BDD6BBE_perc_100000_ol_0_mul_1_app-3Acd4697ba1bc4a478_1"
+LaunchHomePage.c(442): Notify: Parameter Substitution: parameter "c_ModifiedSince" =  "1643756790764"
+LaunchHomePage.c(442): Notify: Parameter Substitution: parameter "c_App" =  "cd4697ba1bc4a478"
+LaunchHomePage.c(442): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(442): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(442): Notify: Parameter Substitution: parameter "c_RpId" =  "501404210"
+LaunchHomePage.c(442): Notify: Parameter Substitution: parameter "c_App" =  "cd4697ba1bc4a478"
+LaunchHomePage.c(442): web_custom_request("rb_bf96747ztk_3") was successful, 135 body bytes, 730 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(457): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(457): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
+LaunchHomePage.c(457): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(459): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(459): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(462): web_url("versions") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(462): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(462): web_url("versions") was successful, 94 body bytes, 587 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(472): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(472): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(475): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(475): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(478): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(478): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(481): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(481): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(484): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(484): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(487): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(487): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(490): web_custom_request("rb_bf96747ztk_4") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(490): Notify: Parameter Substitution: parameter "c_Sn" =  "v_4_srv_3_sn_068571619813A9E5E6E7FA510BDD6BBE_perc_100000_ol_0_mul_1_app-3Acd4697ba1bc4a478_1"
+LaunchHomePage.c(490): Notify: Parameter Substitution: parameter "c_ModifiedSince" =  "1643756790764"
+LaunchHomePage.c(490): Notify: Parameter Substitution: parameter "c_App" =  "cd4697ba1bc4a478"
+LaunchHomePage.c(490): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(490): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(490): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(490): Notify: Parameter Substitution: parameter "c_RpId" =  "501404210"
+LaunchHomePage.c(490): Notify: Parameter Substitution: parameter "c_App" =  "cd4697ba1bc4a478"
+LaunchHomePage.c(490): web_custom_request("rb_bf96747ztk_4") was successful, 135 body bytes, 730 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(508): web_custom_request("rb_bf96747ztk_5") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(508): Notify: Parameter Substitution: parameter "c_Sn" =  "v_4_srv_3_sn_068571619813A9E5E6E7FA510BDD6BBE_perc_100000_ol_0_mul_1_app-3Acd4697ba1bc4a478_1"
+LaunchHomePage.c(508): Notify: Parameter Substitution: parameter "c_ModifiedSince" =  "1643756790764"
+LaunchHomePage.c(508): Notify: Parameter Substitution: parameter "c_App" =  "cd4697ba1bc4a478"
+LaunchHomePage.c(508): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(508): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(508): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(508): Notify: Parameter Substitution: parameter "c_RpId" =  "501404210"
+LaunchHomePage.c(508): Notify: Parameter Substitution: parameter "c_RpId" =  "501404210"
+LaunchHomePage.c(508): Notify: Parameter Substitution: parameter "c_App" =  "cd4697ba1bc4a478"
+LaunchHomePage.c(508): web_custom_request("rb_bf96747ztk_5") was successful, 135 body bytes, 730 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(527): web_custom_request("rb_bf96747ztk_6") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(527): Notify: Parameter Substitution: parameter "c_Sn" =  "v_4_srv_3_sn_068571619813A9E5E6E7FA510BDD6BBE_perc_100000_ol_0_mul_1_app-3Acd4697ba1bc4a478_1"
+LaunchHomePage.c(527): Notify: Parameter Substitution: parameter "c_ModifiedSince" =  "1643756790764"
+LaunchHomePage.c(527): Notify: Parameter Substitution: parameter "c_App" =  "cd4697ba1bc4a478"
+LaunchHomePage.c(527): Notify: Parameter Substitution: parameter "c_RenderCaptchaID" =  "6Lf1YKQUAAAAAK3RIImnFOQrks8gZnrC7pObqn5q"
+LaunchHomePage.c(527): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(527): Notify: Parameter Substitution: parameter "c_RenderCaptchaID" =  "6Lf1YKQUAAAAAK3RIImnFOQrks8gZnrC7pObqn5q"
+LaunchHomePage.c(527): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(527): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(527): Notify: Parameter Substitution: parameter "c_AppID" =  "61b218eca79bef95"
+LaunchHomePage.c(527): Notify: Parameter Substitution: parameter "c_App" =  "cd4697ba1bc4a478"
+LaunchHomePage.c(527): web_custom_request("rb_bf96747ztk_6") was successful, 135 body bytes, 730 header bytes  	[MsgId: MMSG-26386]
+LaunchHomePage.c(551): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(551): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
+LaunchHomePage.c(551): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(553): web_remove_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(553): Previous automatically added web header for "sec-ch-ua" removed  	[MsgId: MMSG-26587]
+LaunchHomePage.c(553): web_remove/revert_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(555): web_remove_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(555): Previous automatically added web header for "sec-ch-ua-mobile" removed  	[MsgId: MMSG-26587]
+LaunchHomePage.c(555): web_remove/revert_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(557): web_remove_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+LaunchHomePage.c(557): Previous automatically added web header for "sec-ch-ua-platform" removed  	[MsgId: MMSG-26587]
+LaunchHomePage.c(557): web_remove/revert_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+LaunchHomePage.c(559): lr_think_time: 5.00 seconds.
+LaunchHomePage.c(561): Notify: Transaction "S01_T00_Launch_AMP_HomePage" ended with a "Stop" status (Duration: 42.0611 Think Time: 5.0069 Wasted Time: 0.3839).
+Abort was called from an action.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

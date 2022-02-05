@@ -1,0 +1,19 @@
+
+
+
+     {{{intro_title}}}
+
+
+     {{{intro_checkStatusStr}}}
+
+
+
+     <div id="greenid-intro-words" data-cucumber="greenid-intro-words">
+        {{{intro_introText}}}
+     </div>
+
+	 <script type="text/javascript">	   
+	 	greenidJQuery(document).ready(function() {	 	   
+	 	    greenidUiBehaviours.introStartUp();
+	 	});
+	 </script>

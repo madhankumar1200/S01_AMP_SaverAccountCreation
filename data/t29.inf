@@ -1,0 +1,13 @@
+[t29]
+SnapshotXmlFile=snapshot_29.xml
+FileName1=t29.gif
+URL1=https://trc.taboola.com/1236555/log/3/unip?en=page_view&item-url=https%3A%2F%2Fwww.amp.com.au%2F&tim=1643724199192&ui=3a61b933-3010-484d-82bd-e50681f939e4-tuct8f2bf73&ref=https%3A%2F%2Fwww.amp.com.au%2F&cv=20220129-3-RELEASE&tos=613827&ssd=2&scd=81&mrir=to&vi=1643724199184&sd=v2_ab8cc1e2063b15704fc42f263c180661_3a61b933-3010-484d-82bd-e50681f939e4-tuct8f2bf73_1643723251_1643723251_CIi3jgYQy7xLGIS1qazrLyABKAEwEDiu_QZA8IUQSNnR1wNQipoCWABgAGjJ5ITkztCf96QBcAE
+Total=2
+RequestHeaderFile=t29_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t29_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1
+FileName2=t29_json.html
+URL2=https://trc.taboola.com/1236555/trc/3/json?tim=1643724199192&data=%7B%22id%22%3A629%2C%22ii%22%3A%22%2Fbanking%22%2C%22it%22%3A%22video%22%2C%22sd%22%3A%22v2_ab8cc1e2063b15704fc42f263c180661_3a61b933-3010-484d-82bd-e50681f939e4-tuct8f2bf73_1643723251_1643723251_CIi3jgYQy7xLGIS1qazrLyABKAEwEDiu_QZA8IUQSNnR1wNQipoCWABgAGjJ5ITkztCf96QBcAE%22%2C%22ui%22%3A%223a61b933-3010-484d-82bd-e50681f939e4-tuct8f2bf73%22%2C%22vi%22%3A1643724199184%2C%22cv%22%3A%2220220129-3-RELEASE%22%2C%22uiv%22%3A%22default%22%2C%22u%22%3A%22https%3A%2F%2Fwww.amp.com.au%2Fbanking%22%2C%22e%22%3A%22https%3A%2F%2Fwww.amp.com.au%2F%22%2C%22cb%22%3A%22TFASC.trkCallback%22%2C%22qs%22%3A%22%22%2C%22r%22%3A%5B%7B%22li%22%3A%22rbox-tracking%22%2C%22s%22%3A0%2C%22uim%22%3A%22rbox-tracking%3Apub%3Dreprisemelb-amp-au-sc%3Aabp%3D0%22%2C%22uip%22%3A%22rbox-tracking%22%2C%22orig_uip%22%3A%22rbox-tracking%22%7D%5D%2C%22mpv%22%3Atrue%2C%22mpvd%22%3A%7B%22en%22%3A%22page_view%22%2C%22item-url%22%3A%22https%3A%2F%2Fwww.amp.com.au%2F%22%2C%22tim%22%3A1643724199192%2C%22ref%22%3A%22https%3A%2F%2Fwww.amp.com.au%2F%22%2C%22tos%22%3A608867%2C%22ssd%22%3A2%2C%22scd%22%3A81%7D%7D&pubit=i

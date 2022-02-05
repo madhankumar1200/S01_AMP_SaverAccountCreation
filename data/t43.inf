@@ -1,0 +1,15 @@
+[t43]
+FileName1=t43.html
+URL1=https://bat.bing.com/actionp/0?ti=16012365&Ver=2&mid=ff5e7c4b-0f90-4eef-91ba-422aaff185bb&sid=7c784480836511ecb938af507a963ec8&vid=7c7a99f0836511ec8d66cb32184140ff&vids=0&evt=pageHide
+Total=3
+RequestHeaderFile=t43_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t43_ResponseHeader.txt
+ContentType=image/svg+xml
+SnapshotXmlFile=snapshot_43.xml
+FileName2=t43_winning_ribbon_purple_teal.svg
+URL2=https://www.amp.com.au/content/dam/amp-au/illustrations/winning_ribbon_purple_teal.svg
+FileName3=t43_calendar_invite_decline_purple_teal.svg
+URL3=https://www.amp.com.au/content/dam/amp-au/illustrations/calendar_invite_decline_purple_teal.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

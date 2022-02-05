@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IE:\Madhan\S01_AMP_SaverAccountCreation
+-IC:\Program Files (x86)\Micro Focus\Virtual User Generator\include
+-ee:\madhan\s01_amp_saveraccountcreation\\logfile.log
+e:\madhan\s01_amp_saveraccountcreation\\combined_S01_AMP_SaverAccountCreation.c
+e:\madhan\s01_amp_saveraccountcreation\\pre_cci.c

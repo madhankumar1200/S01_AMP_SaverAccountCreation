@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Date: Tue, 01 Feb 2022 14:35:00 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Set-Cookie: AWSALB=wVWwBeD2RWEIyNGti1iPwKoqrmSZIQjxgT5WU4CrmUgxg1WX7ydzsXP0i8NNY5Gc/r4jNDpVlBWkbgJ+ChSuC74IGOOqwUQP+iBL+cjpdPQY5+FYNEFNkvSanlEm; Expires=Tue, 08 Feb 2022 14:34:59 GMT; Path=/
+Set-Cookie: AWSALBCORS=wVWwBeD2RWEIyNGti1iPwKoqrmSZIQjxgT5WU4CrmUgxg1WX7ydzsXP0i8NNY5Gc/r4jNDpVlBWkbgJ+ChSuC74IGOOqwUQP+iBL+cjpdPQY5+FYNEFNkvSanlEm; Expires=Tue, 08 Feb 2022 14:34:59 GMT; Path=/; SameSite=None; Secure
+etag: W/"390-jqE2zWEkByTUWOn0je6Iy9R4lwo:dtagent10231211201155045SEHI:dtagent10231211201155045SEHI"
+p3p: CP="NON CUR OTPi OUR NOR UNI"
+vary: Origin
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+timing-allow-origin: *
+content-security-policy: frame-ancestors 'self'
+strict-transport-security: max-age=31536000; includeSubDomains
+server-timing: dtSInfo;desc="0", dtRpid;desc="1125939768", dtTao;desc="1"
+X-CDN: Imperva
+Content-Encoding: gzip
+Transfer-Encoding: chunked
+X-Iinfo: 13-196535-217167 NNYY CT(1 10 0) RT(1643726003657 95133) q(0 0 0 -1) r(4 4) U5
+

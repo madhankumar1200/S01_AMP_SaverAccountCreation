@@ -1,0 +1,963 @@
+window.XTREME = window.XTREME || {};
+
+// XTREME.ready() is very similar to $(document).ready() except it waits until our main JavaScript has run
+(function(NAMESPACE) {
+	var stack = [],
+		isReady = false;
+
+	NAMESPACE.ready = function(callback) {
+		if (typeof callback === 'function') {
+			if (isReady) {
+				callback();
+			} else {
+				stack.push(callback);
+			}
+		}
+	};
+
+	NAMESPACE.triggerReady = function() {
+		isReady = true;
+
+		while (stack.length) {
+			stack.shift().call();
+		}
+	};
+
+}(XTREME));
+
+
+
+
+/*!
+  * Bowser - a browser detector
+  * https://github.com/ded/bowser
+  * MIT License | (c) Dustin Diaz 2015
+  */
+!function(e,t){typeof module!="undefined"&&module.exports?module.exports=t():typeof define=="function"&&define.amd?define(t):this[e]=t()}("bowser",function(){function t(t){function n(e){var n=t.match(e);return n&&n.length>1&&n[1]||""}function r(e){var n=t.match(e);return n&&n.length>1&&n[2]||""}var i=n(/(ipod|iphone|ipad)/i).toLowerCase(),s=/like android/i.test(t),o=!s&&/android/i.test(t),u=/CrOS/.test(t),a=n(/edge\/(\d+(\.\d+)?)/i),f=n(/version\/(\d+(\.\d+)?)/i),l=/tablet/i.test(t),c=!l&&/[^-]mobi/i.test(t),h;/opera|opr/i.test(t)?h={name:"Opera",opera:e,version:f||n(/(?:opera|opr)[\s\/](\d+(\.\d+)?)/i)}:/yabrowser/i.test(t)?h={name:"Yandex Browser",yandexbrowser:e,version:f||n(/(?:yabrowser)[\s\/](\d+(\.\d+)?)/i)}:/windows phone/i.test(t)?(h={name:"Windows Phone",windowsphone:e},a?(h.msedge=e,h.version=a):(h.msie=e,h.version=n(/iemobile\/(\d+(\.\d+)?)/i))):/msie|trident/i.test(t)?h={name:"Internet Explorer",msie:e,version:n(/(?:msie |rv:)(\d+(\.\d+)?)/i)}:u?h={name:"Chrome",chromeBook:e,chrome:e,version:n(/(?:chrome|crios|crmo)\/(\d+(\.\d+)?)/i)}:/chrome.+? edge/i.test(t)?h={name:"Microsoft Edge",msedge:e,version:a}:/chrome|crios|crmo/i.test(t)?h={name:"Chrome",chrome:e,version:n(/(?:chrome|crios|crmo)\/(\d+(\.\d+)?)/i)}:i?(h={name:i=="iphone"?"iPhone":i=="ipad"?"iPad":"iPod"},f&&(h.version=f)):/sailfish/i.test(t)?h={name:"Sailfish",sailfish:e,version:n(/sailfish\s?browser\/(\d+(\.\d+)?)/i)}:/seamonkey\//i.test(t)?h={name:"SeaMonkey",seamonkey:e,version:n(/seamonkey\/(\d+(\.\d+)?)/i)}:/firefox|iceweasel/i.test(t)?(h={name:"Firefox",firefox:e,version:n(/(?:firefox|iceweasel)[ \/](\d+(\.\d+)?)/i)},/\((mobile|tablet);[^\)]*rv:[\d\.]+\)/i.test(t)&&(h.firefoxos=e)):/silk/i.test(t)?h={name:"Amazon Silk",silk:e,version:n(/silk\/(\d+(\.\d+)?)/i)}:o?h={name:"Android",version:f}:/phantom/i.test(t)?h={name:"PhantomJS",phantom:e,version:n(/phantomjs\/(\d+(\.\d+)?)/i)}:/blackberry|\bbb\d+/i.test(t)||/rim\stablet/i.test(t)?h={name:"BlackBerry",blackberry:e,version:f||n(/blackberry[\d]+\/(\d+(\.\d+)?)/i)}:/(web|hpw)os/i.test(t)?(h={name:"WebOS",webos:e,version:f||n(/w(?:eb)?osbrowser\/(\d+(\.\d+)?)/i)},/touchpad\//i.test(t)&&(h.touchpad=e)):/bada/i.test(t)?h={name:"Bada",bada:e,version:n(/dolfin\/(\d+(\.\d+)?)/i)}:/tizen/i.test(t)?h={name:"Tizen",tizen:e,version:n(/(?:tizen\s?)?browser\/(\d+(\.\d+)?)/i)||f}:/safari/i.test(t)?h={name:"Safari",safari:e,version:f}:h={name:n(/^(.*)\/(.*) /),version:r(/^(.*)\/(.*) /)},!h.msedge&&/(apple)?webkit/i.test(t)?(h.name=h.name||"Webkit",h.webkit=e,!h.version&&f&&(h.version=f)):!h.opera&&/gecko\//i.test(t)&&(h.name=h.name||"Gecko",h.gecko=e,h.version=h.version||n(/gecko\/(\d+(\.\d+)?)/i)),!h.msedge&&(o||h.silk)?h.android=e:i&&(h[i]=e,h.ios=e);var p="";h.windowsphone?p=n(/windows phone (?:os)?\s?(\d+(\.\d+)*)/i):i?(p=n(/os (\d+([_\s]\d+)*) like mac os x/i),p=p.replace(/[_\s]/g,".")):o?p=n(/android[ \/-](\d+(\.\d+)*)/i):h.webos?p=n(/(?:web|hpw)os\/(\d+(\.\d+)*)/i):h.blackberry?p=n(/rim\stablet\sos\s(\d+(\.\d+)*)/i):h.bada?p=n(/bada\/(\d+(\.\d+)*)/i):h.tizen&&(p=n(/tizen[\/\s](\d+(\.\d+)*)/i)),p&&(h.osversion=p);var d=p.split(".")[0];if(l||i=="ipad"||o&&(d==3||d==4&&!c)||h.silk)h.tablet=e;else if(c||i=="iphone"||i=="ipod"||o||h.blackberry||h.webos||h.bada)h.mobile=e;return h.msedge||h.msie&&h.version>=10||h.yandexbrowser&&h.version>=15||h.chrome&&h.version>=20||h.firefox&&h.version>=20||h.safari&&h.version>=6||h.opera&&h.version>=10||h.ios&&h.osversion&&h.osversion.split(".")[0]>=6||h.blackberry&&h.version>=10.1?h.a=e:h.msie&&h.version<10||h.chrome&&h.version<20||h.firefox&&h.version<20||h.safari&&h.version<6||h.opera&&h.version<10||h.ios&&h.osversion&&h.osversion.split(".")[0]<6?h.c=e:h.x=e,h}var e=!0,n=t(typeof navigator!="undefined"?navigator.userAgent:"");return n.test=function(e){for(var t=0;t<e.length;++t){var r=e[t];if(typeof r=="string"&&r in n)return!0}return!1},n._detect=t,n})
+
+
+'use strict';
+/* ==========================================================================
+ * LightBox
+ We are using JQuery to show and hide pop-up 
+ * CSS and HTML dependencies exist.
+ * ========================================================================== */
+
+ 
+(function(XTREME) {
+
+    'use strict';
+    XTREME.lightBoxPopUp = (function () {
+        //Pop up box
+        var init = function() {
+            //Loads LightBox styles
+            $.fn.myLightBox = function() {
+                $(this).parent().show();
+                $(this).prev().css({
+                    "opacity": '0.8'
+                });
+                var $this = this,
+                    $close = $this.find(".closeLB"),
+                    $docWidth = document.documentElement.clientWidth,
+                    $docHeight = document.documentElement.clientHeight;
+                $this.css({
+                    "top": '50%',
+                    "left": "50%",
+                    //"margin-left": "-397px",
+                    //"margin-top": "-280px",
+                    "position": "fixed"
+                });
+                //$("body").css("overflow", "hidden").css("position", "fixed");
+                $(".main-sidebar").css("z-index", "10");
+                $(".f-nav").css("z-index", "10");
+                
+                $close.bind("click", function() {
+                    $this.parent().hide('slow');
+                    $("body").css("overflow", "visible").css("position", "static");
+                });
+            }
+            //Show LightBox
+            $(".click-fn").click(function() {
+                //$('.popup-container').hide();
+                $('.lightBoxArea').show('slow');
+                $(".light-box").myLightBox();
+                var getrel = $(this).attr('rel');
+                $(getrel).show();
+                var current = $(window).scrollTop();
+                /*$(window).scroll(function(e) {
+                    $(window).scrollTop(current);
+                });*/
+            });
+            //Close LightBox
+            $('.closeLB').click(function(e) {
+                e.preventDefault();
+                $('.lightBoxArea').hide();
+                $(".main-sidebar").css("z-index", "1100");
+                $(".f-nav").css("z-index", "8999");
+                //$(window).unbind("scroll");
+                //XTREME.anchorBar.init();
+            });
+            
+        };
+
+        return {
+            init: init
+        };
+        
+    }());
+
+}(XTREME));
+
+var factory = function ($) {
+
+    $(function () {
+
+        var HTTP = {
+                success: 200,
+                error: 400,
+                notFound: 404,
+                unauthorised: 401,
+                question: 303,
+                endSurvey: 201
+            },
+            config = {
+                version: '0.1',
+                checkUrl: '/wps/gws/NetPromoterScore',
+                divUrl: '/wps/gws/com_amp_portal_nps/nps.html',
+                aemUrl: '/content/amp/nps_faq/_jcr_content/par.html',
+                anonIdExpiry: 90 * 24 * 3600,
+                postponePeriod: 30 * 24 * 3600,
+                anonCookieName: "amp.com.au.nps.user-id",
+                completedCookieName: "amp.com.au.nps.complete",
+                useCompletedCookie: true,
+                completedCookieExpiry: 60 * 60,
+                preFetchQuestions: true,
+                postponeOnHide: false,
+                survey: {
+                    //A hashed identifier that represents a particular survey + survey Id in the resonate platform. Will be distributed to AMP each time the survey changes.
+                    id: '7QBD98FWDMDQKABHCQLGZ52QEX', 
+                    invite: {
+                        animateShowTime: 2000,
+                        animateHideTime: 1000
+                    }
+                },
+                disableOnError: true
+            },
+            session = {
+                surveyUrl: '',
+                channel: '',
+                device: '',
+                browser: ''
+            },
+            npsSessionId = '',
+            dataLocation = '',
+            userId = '',
+            //pageId = 'amp:Personal:Home loans:Home loans',
+            pageId = '',
+            //data.pageId = tracking.pageName.toLowerCase();
+            currentDate = new Date(),
+            questionsLoaded = false,
+            lastQuestionBuilt = false;
+            isFirstQuestion = true;
+            if($("link[rel='canonical']") && $("link[rel='canonical']").attr("href") && window.location.origin){
+                if($("link[rel='canonical']").attr("href").split(window.location.origin)){
+                    pageId = 'amp' + $("link[rel='canonical']").attr("href").split(window.location.origin)[1].replace(/[/]/g, ':');
+                }
+            }
+            isDevice = {
+                Android: function () {
+                    return navigator.userAgent.match(/Android/i);
+                },
+                AndroidChrome: function () {
+                    return window.chrome && navigator.userAgent.match(/Android/i);
+                },
+                BlackBerry: function () {
+                    return navigator.userAgent.match(/BlackBerry/i);
+                },
+                iOS: function () {
+                    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+                },
+                Opera: function () {
+                    return navigator.userAgent.match(/Opera Mini/i);
+                },
+                Windows: function () {
+                    return navigator.userAgent.match(/IEMobile/i);
+                },
+                any: function () {
+                    var isany = (isDevice.Android() || isDevice.BlackBerry() || isDevice.iOS() || isDevice.Opera() || isDevice.Windows());
+                    return (isany !== null);
+                },
+                touch: function () {
+                    return 'ontouchstart' in window || 'onmsgesturechange' in window;
+                }
+            },
+            /*tracking.pageId.toLowerCase(),*/
+            //Events handling
+            methods = {
+                init: function (isStaticNps) {
+                    userId = methods.getCookie(config.anonCookieName);
+                    // re-mapped value below due to reporting requirement see BEDR-1157
+                    // Switch back with the new NPS provider BEDR-1601
+                    session.device = methods.getDevice();
+                    session.browser = methods.getBrowser();
+
+                    /* ENABLE after TESTING
+                    if (typeof npsConfig !== "object") {
+                        return;
+                    }*/
+
+                    if (!isStaticNps && config.useCompletedCookie && methods.getCookie(config.completedCookieName)) {
+                        return;
+                    }
+
+                    //$.extend(true, config, npsConfig);
+
+                    if(!(window.location.pathname.indexOf('/wps/portal/sec') == 0)){
+                    	if(isStaticNps){
+                    		$('.popup-container.preloader').addClass('preloader--active');
+                            methods.hideDiv($('#nps-invite'), config.survey.invite.animateHideTime);
+                    	}
+                        $.when(methods.surveyCheck(isStaticNps)).done(function(data, status){
+                            if(status === 'success' && data.showNps){
+                                if(!questionsLoaded){
+                                    methods.startSurvey(isStaticNps);
+                                }
+                            } 
+                            else {
+                            	if(data.disabled) {
+                            		console.log('Disabled - Survey Check (User completed survey/Error connecting API)');
+                            	}
+                            	if(isStaticNps){
+                                    $('.popup-container.preloader').removeClass('preloader--active');
+                                    $('.nps-error-container').show();
+                            	}
+                            }
+                        })
+                        .fail(function(xhr){
+                            console.log('Failed - Survey Check with errorMessage: ' + xhr.status);
+                            if(isStaticNps){
+                            	methods.errorCallback(xhr, 'Check Survey');
+                                $('.popup-container.preloader').removeClass('preloader--active');
+                                $('.nps-error-container').show();
+                            }
+                        });
+                    }
+                },
+                events: function () {
+
+                    $('#nps-container .bottomContainer .accordion__title').click(function(){
+                        var $content = $('#nps-container .bottomContainer .content');
+                        var $title = $('#nps-container .bottomContainer .accordion__title');
+                       
+                        $content.css('display','block');
+                        $title.css('display','none');
+                        $('#nps-container .aem-content .bottomContainer').addClass('open');                                                   
+                    });
+
+                    $('#nps-container .bottomContainer .content .content-button').click(function(){
+                        var $content = $('#nps-container .bottomContainer .content');
+                        var $title = $('#nps-container .bottomContainer .accordion__title');
+                       
+                        $content.css('display','none');
+                        $title.css('display','inline-block');
+                        $('#nps-container .aem-content .bottomContainer').removeClass('open');                                                    
+                    });
+
+                    $('#nps-container .question a.button.next').on('click touchstart',function (event) {
+                        event.preventDefault();
+                        var quickSelection = methods.formatQuickSelectValues();
+                        var valueQ = quickSelection + methods.valueQuestion($(this).closest('.question'));
+
+                        if( valueQ !== '' && valueQ != null){
+                            if($(this).attr('id') == 0 || valueQ.trim().length > 1) {
+                               methods.postAnswer($(this), valueQ);
+                               isFirstQuestion = false;
+                            }
+                            else if($(this).attr('id') == 1 && valueQ.trim().length <= 1){
+                                if(!lastQuestionBuilt) {
+                                    $(this).closest('.question').find('.question-content .groupOption').find('textarea').val('');
+                                    methods.buildLastQuestion();
+                                }
+                                else {
+                                    methods.postAnswer($(this), valueQ);
+                                }
+                            }                            
+                        }
+                        else if($(this).attr('id') == 1) {
+                            if(lastQuestionBuilt) {
+                                methods.postAnswer($(this), valueQ);
+                            }
+                            else {
+                                $(this).closest('.question').find('.question-content .groupOption').find('textarea').val('');
+                                methods.buildLastQuestion();
+                            }
+                        }                        
+                        console.log('NEXT');
+                    });
+                    
+                    $('#nps-container .question .question-content .groupOption a').click(function(){
+                        if(!$(this).hasClass('hovered')){
+                            $('#nps-container .question .question-content .groupOption a').each(function(){
+                                $(this).removeClass('hovered');
+                            });
+                            
+                            $(this).addClass('hovered');
+                        }
+                        else
+                            $(this).removeClass('hovered');
+                    });
+                                      
+
+                    /**************************03 Sept Issues******************************
+                    $('#lightBoxArea .overlay, #lightBoxArea .light-box').on('touchmove', function(e){
+                        e.preventDefault();
+                    });*/
+
+                    /*$('#popup_nps_now textarea').focus(function(){
+                        if(bowser.ios || bowser.ipad){
+                            if(window.innerWidth === 768){
+                                $('#lightBox').css('top', '450px');
+                            } else {
+                                $('#lightBox').css('top', '0%').css('margin-top', '0px');
+                            }
+                        }
+                    });*/
+
+                    $('#popup_nps_now textarea').focusout(function(){
+                        if(bowser.ios || bowser.ipad){
+                            if( $('#lightBox').css('margin-top') !== '-280px'){
+                                $('#lightBox').css('top', '50%').css('margin-top', '-280px');
+                            }
+                        }
+
+                    });
+                    
+                    /* check on mobile */
+//                    $('#nps-container .bottomContainer .accordion__title').on('click touchstart', function(){
+//                        if($('#nps-container .popup-container .bottomContainer').hasClass('open')){
+//                            $('#nps-container .lightBoxArea .light-box').css('overflow-y', 'scroll').css('overflow-x','hidden');
+//                        } else {
+//                            $('#nps-container .lightBoxArea .light-box').css('overflow-y', 'hidden').css('overflow-x','hidden');
+//                        }
+//
+//                    });
+
+                    $('#nps-container .lightBoxArea .light-box .closeLB').on('click touchstart', function(){
+                        if(isFirstQuestion) {
+                            methods.postponeSurvey();
+                        }
+                        else {
+                            methods.closeSurvey();
+                        }
+                    });   
+                },
+                surveyCheck: function (isStaticNps) {
+                	
+                    var dataIn = {
+                            pageId: pageId.toLowerCase()
+                        };
+                    if(isStaticNps){
+                    	dataIn['skipChecks'] = true;
+                    }
+                    
+                    if (userId !== null && userId !== 'null') {
+                        dataIn.userIdentifier = userId;
+                    }
+
+                    return $.getJSON(config.checkUrl, dataIn, function(data){
+                        console.log('surveyCheck DONE with: ' + dataIn.pageId);
+                        var delay;
+                        if (data === null) {
+                            methods.setNpsCompleted("data-error");
+                            console.log('Error data-error');
+                            return;
+                        }
+                        if (data.disabled) {
+                            methods.setNpsCompleted("disabled");
+                            console.log('Disabled');
+                        } else if (data.showNps) {
+                            npsSessionId = data.npsSessionId;
+                            console.log('Survey Check NPSSESSIONID: ' + npsSessionId);                            
+                            session.channel = data.channel;
+                            session.surveyUrl = data.surveyUrl || '';
+                            config.postponePeriod = data.npsPostponePeriodInSecs;
+                            
+                            if (data.userIdentifier) {
+                                userId = data.userIdentifier;
+                                methods.setCookie(config.anonCookieName, data.userIdentifier, config.anonIdExpiry);
+                            }
+                            delay = data.showDelay;
+                            delay -= new Date().getTime() - currentDate.getTime();
+                            if (delay < 0) {
+                                delay = 0;
+                            }
+
+                            setTimeout(function () {
+                                //methods.showDiv($('#nps-invite'), config.survey.invite.animateShowTime);
+                                //track("survey-triggered");
+                                var script=document.createElement('script');
+                                script.type='text/javascript';
+                                script[(script.innerText===undefined?"textContent":"innerText")] = '_satellite.track("NPSpopup");';
+                                $("head").append(script);
+                            }, delay);
+                        }
+                    });
+                },
+                startSurvey: function (isStaticNps) {
+                    console.log('Call API - startSurvey');
+                    var dataIn = {
+                            npsSessionId: npsSessionId,
+                            parameters: [{
+                                key: "channelname",
+                                value: session.channel
+                            }, {
+                                key: "device",
+                                value: session.device
+                            }, {
+                                key: "browser",
+                                value: session.browser
+                            }, {
+                                key: "pageId",
+                                value: pageId
+                            }]
+                        },
+                        url = session.surveyUrl + '/survey/' + config.survey.id;
+
+                    console.log('Start Survey NPSSESSIONID: ' + dataIn.npsSessionId);
+
+                    jQuery.support.cors = true;
+                    
+                    $.ajax({
+                        url: url,
+                        type: 'POST',
+                        data: JSON.stringify(dataIn),
+                        contentType: 'application/json',
+                        headers: {'X-Requested-With': 'XMLHttpRequest'},
+                        dataType: 'json',
+                        crossDomain: true
+                    }).success(function(data){
+                        dataLocation = data.location;
+                        if(!isStaticNps){
+	                        $('#nps-container').load(config.divUrl, function (response, status) {
+	                            console.log('nps html loaded from portal');
+	                            methods.initNpsDiv();
+	                        });  
+                    	}
+                    	else{ // confirm survey right after start survey for static nps
+                    		methods.confirmSurvey(true);
+                    	}
+                    })
+                    .fail(function(xhr){
+                        methods.errorCallback(xhr, 'Start Survey');
+                        $('.popup-container.preloader').removeClass('preloader--active');
+                        if(isStaticNps){
+                            $('.nps-error-container').show();
+                        }
+                    });
+                },
+                initNpsDiv: function(){
+                	XTREME.lightBoxPopUp.init();
+                    $('.nps-error-container .error-button a.button').click(function () {
+                        $('.lightBoxArea').hide('slow');                                
+                    });
+                    $('#nps-container a.nps-btn-now').click(function(){
+                        methods.hideDiv($('#nps-invite'), config.survey.invite.animateHideTime);
+                        methods.hideDiv($('#nps-optout'), config.survey.invite.animateHideTime);
+                        methods.confirmSurvey();
+                    });
+                    $('#nps-container .nps-btn-later').click(function (event) {
+                        event.preventDefault();
+                        methods.hideDiv($('#nps-invite'), config.survey.invite.animateHideTime);
+                        methods.postponeSurvey();
+                        console.log('LATER');
+                    });
+                },
+                confirmSurvey: function (isStaticNps) {
+                    $('.popup-container.preloader').addClass('preloader--active');
+                    var dataIn = { npsSessionId: npsSessionId },
+                        url = session.surveyUrl + '/confirmsurvey';
+                        console.log('Confirm Survey NPSSESSIONID: ' + dataIn.npsSessionId);
+                        
+                        $.ajax({
+                            url: url,
+                            type: 'POST',
+                            data: JSON.stringify(dataIn),
+                            contentType: 'application/json',
+                            headers: {'X-Requested-With': 'XMLHttpRequest'},
+                            dataType: 'json',
+                            crossDomain: true
+                        }).success(function(data){
+                        methods.getQuestions(isStaticNps);                                                                                                      
+                        methods.populateBottomSection();                                                            
+                    })
+                    .fail(function(xhr){
+                        methods.errorCallback(xhr, 'Confirm Survey');
+                        $('.popup-container.preloader').removeClass('preloader--active');
+                        $('.nps-error-container').show();
+                    });
+                },
+                getQuestions: function (isStaticNps) {
+                    console.log('Getting questions: ');
+
+                    url = session.surveyUrl + '/' + dataLocation;
+
+                    $.ajax({
+                        url: url,
+                        type: 'GET',
+                        dataType: 'json',
+                        crossDomain: true
+                    }).success(function(data){                        
+                        $('.popup-container.preloader').removeClass('preloader--active');
+                        if(data.errorMessage === undefined){
+                            console.log('Question loaded: ' + data);
+                            methods.buildQuestions(data);
+
+                            $('#question_0').css('display', 'block');
+
+                            questionsLoaded = true;
+                            
+                        } else {
+                            methods.errorCallback(xhr, 'Get question');
+                            $('.nps-error-container').show();
+                        }
+                                
+                    }).fail(function(xhr){
+                        methods.errorCallback(xhr, 'Get question');
+                        $('.popup-container.preloader').removeClass('preloader--active');
+                        $('.nps-error-container').show();
+                    });
+
+                },
+                
+                postponeSurvey: function () {
+                    console.log('postponeSurvey');
+                    var dataIn = {
+                            npsSessionId: npsSessionId,
+                            period: config.postponePeriod
+                        },
+                        url = session.surveyUrl + '/postpone';
+
+                    jQuery.support.cors = true;
+                    
+                    $.ajax({
+                        url: url,
+                        type: 'POST',
+                        data: JSON.stringify(dataIn),
+                        contentType: 'application/json',
+                        headers: {'X-Requested-With': 'XMLHttpRequest'},
+                        dataType: 'json',
+                        crossDomain: true
+                    }).success(function(data){
+                        methods.setNpsCompleted('postponed');
+                        console.log('Postpone - successful for npsSessionId: ' + npsSessionId);
+                    }).fail(function(xhr){
+                        methods.errorCallback(xhr, 'Postpone Survey');
+                    });
+                },
+
+                closeSurvey: function () {
+                    console.log('closeSurvey');
+
+                    var url = session.surveyUrl + '/close/' + npsSessionId;
+                    jQuery.support.cors = true;
+                    
+                    $.ajax({
+                        url: url,
+                        type: 'POST',                        
+                        contentType: 'application/json',
+                        dataType: 'json',
+                        crossDomain: true
+                    }).success(function(data){
+                        methods.setNpsCompleted('closed');
+                        console.log('Close - successful for npsSessionId: ' + npsSessionId);
+                    }).fail(function(xhr){
+                        methods.errorCallback(xhr, 'Close Survey');
+                    });
+                },
+
+                optoutSurvey: function () {
+                    console.log('optoutSurvey');
+                    var $npsOptout = $('#nps-optout'),
+                        $npsInvite = $('#nps-invite');
+
+                    if ($npsOptout.css('display') !== 'none') {
+                        methods.hideDiv($npsOptout, config.survey.invite.animateHideTime);
+                        
+                        var dataIn = {
+                                npsSessionId: npsSessionId,
+                                action: 'OPT-OUT'
+                            },
+                            url = session.surveyUrl + '/optout';
+
+                        jQuery.support.cors = true;
+                        
+                        $.ajax({
+                            url: url,
+                            type: 'POST',
+                            data: JSON.stringify(dataIn),
+                            contentType: 'application/json',
+                            headers: {'X-Requested-With': 'XMLHttpRequest'},
+                            dataType: 'json',
+                            crossDomain: true
+                        }).success(function(data){
+                            methods.setNpsCompleted('optout');
+                            console.log('Opt out - successful for npsSessionId: ' + npsSessionId);
+                        }).fail(function(xhr){
+                            methods.errorCallback(xhr, 'Opt out Survey');
+                        });
+                    } else {
+                        methods.showDiv($npsOptout, config.survey.invite.animateShowTime);                        
+                        
+                        methods.hideDiv($npsInvite, config.survey.invite.animateHideTime);
+                    }
+                },
+                
+                postAnswer: function(link, value){
+                    var dataIn = {
+                            npsSessionId: npsSessionId,
+                            answerValue:  value !== null ? value.trim() : ''
+                        };
+                    
+                    console.log('Post Answer NPSSESSIONID: ' + dataIn.npsSessionId + ' with Answer value: ' + value);
+                    
+                    $.ajax({
+                        url: link.attr('href'),
+                        type: 'POST',
+                        data: JSON.stringify(dataIn),
+                        contentType: 'application/json',
+                        headers: {'X-Requested-With': 'XMLHttpRequest'},
+                        crossDomain: true
+                    }).success(function(data, status, xhr){
+                        $('#lightBoxArea .question').hide();
+                        link.closest('.question').next().show('slow');
+                        if(xhr.status === HTTP.endSurvey){
+                            methods.showThankYou();
+                            methods.setNpsCompleted('submitted');
+                        }
+                    }).fail(function(xhr){
+                        methods.errorCallback(xhr, 'Post answer');
+                        $('.popup-container .content-popup').hide();
+                        $('.nps-error-container').show();
+                    });
+                    
+                },
+                
+                errorCallback: function(xhr, method){
+                    if(xhr.status === HTTP.unauthorised){
+                         methods.deleteCookie(config.anonCookieName);
+
+                         userId = '';
+
+                        console.log('NPSSessionId expired');
+                    } else {
+                        if($.browser.msie)
+                            console.log('Failed - '+method+' with status: '+ xhr.status +' and errorMessage: ' + xhr.statusText );
+                        else if(xhr.data)
+                            console.log('Failed - '+method+' with errorMessage: ' + $.parseJSON(xhr.data).errorMessage );
+                        else
+                            console.log('Failed - '+method);
+                    }
+                },
+                
+                endSurvey: function () {
+                    console.log('endSurvey');
+                },
+
+                buildQuestions: function (data) {
+                    var i = 0,
+                        numQ = data.questions.length,
+                        question = null,
+                        btnText = '';
+                    for (; i < numQ; i++) {                        
+                        btnText = 'Next';                      
+
+                        question = data.questions[i];
+                        $('#popup_nps_now .popup-content-header').append('<div id="question_' + i + '" class="question">' +                                
+                                '<h1 class="question-heading">' + question.questionTitle + '</h1>' +
+                                '<h3 class="question-wording">' + question.questionWording + '</h3>' +
+                                '<div class="question-content"></div>');
+
+                        if(question.answers[0] !== undefined){
+                            $('div#question_'+i+' .question-content').append(methods.buildContentQuestion(question.answers[0]));
+                           $('div#question_'+i+' .question-content').after('<div class="divNext"><a id="'+i+'" data-automation-id="btn_net-promoter-score_step_'+i+'" class="button disabled button--medium next" href="' + question.answers[0].answerURL + '"> '+btnText+
+                                                                           '</a></div>');
+
+                        }
+                    }
+
+                    methods.events();
+                },
+
+                buildContentQuestion: function (answer) {
+                    var i = 0,
+                        strFirstOption = '', strLastOption = '',
+                        $groupOptionsContainer = $('<div/>'),
+                        $groupOptions = $('<div/>').addClass('groupOption').addClass(answer.isRequired === true ? 'required' : ''),
+                        $groupOptionsMobile = $('<div/>').addClass('groupOption mobile'),
+                        $select = $('<select tabindex="-1"/>').append('<option value="" style="display:none" selected>Please select</option>');
+                    
+                    if (answer.values) {
+                        var j = answer.values.length - 1;
+
+                        $groupOptions.addClass('desktop');
+
+                        for (; j >= 0; j--) {
+                            $select.append('<option value="'+answer.values[j].displayValue.split('-')[0]+'">'+answer.values[j].displayValue+'</option>');
+                        }
+                        
+                        for (; i < answer.values.length; i++) {
+                            if(answer.values[i].displayValue.indexOf('-') > 0){
+                                if(i === 0)
+                                    strFirstOption = answer.values[i].displayValue.split('-')[1];
+                                else
+                                    strLastOption = answer.values[i].displayValue.split('-')[1]; 
+                                $groupOptions.append( methods.buildOption(answer.answerType, answer.values[i].displayValue.split('-')[0]) );                                
+                            }
+                            else{
+                                $groupOptions.append( methods.buildOption(answer.answerType, answer.values[i].displayValue) );                                
+                            }
+                            
+                            $groupOptions.addClass('btnGroup');
+                        }
+                        
+                        $select.change(function(){
+                            //console.log($(this).val());
+                            $('#btnGroupValue').val($(this).val());
+                            if($(this).val()) {
+                                $('.divNext .button.disabled').removeClass('disabled');
+                            }
+                            else {
+                               $('.divNext .button').addClass('disabled'); 
+                            }
+                        });
+                        $groupOptionsMobile.append($select);
+                        
+                        $groupOptionsContainer.append($groupOptionsMobile);
+
+                        if(strFirstOption !== '' && strLastOption !== ''){
+                            $groupOptions.append('<div class="firstLastOption"><span class="first">'+strFirstOption+'</span><span class="last">'+strLastOption+'</span></div>');
+                            $groupOptions.append('<input id="btnGroupValue" type="hidden" />');
+                        }
+                    } else {
+                        $groupOptions.append( methods.buildOption(answer.answerType) );
+                        
+                        if (answer.regularExpression !== '') {
+                            $groupOptions.find('textarea').attr('regExp', answer.regularExpression);
+                            //$groupOptions.find('input').attr('regExp', '[\s\w\.\,]{1,2000}');
+                        }
+                    }
+                    
+                    $groupOptionsContainer.append($groupOptions);
+                    
+                    return $groupOptionsContainer;
+                },
+
+                buildOption: function (type, value) {
+                    var $option = null;
+                    
+                    if (type === 0) {
+                        $option = $('<input type="checkbox">');
+                    } else if (type === 2) {
+                        $option = $('<input type="text" class="aem-date-picker hasDatepicker">');
+                    } else if (type === 3) {
+                        $option = $('<input type="text" class="information">');
+                    } else if (type === 5) {
+                        $option = $('<a class="button button--small" value="' + value + '" >'+value+'</a>');
+                        $option.click(function(){
+                            $('#btnGroupValue').val(value);
+                            $('.divNext .button.disabled').removeClass('disabled');
+                        });
+                    } else if (type === 6) {
+                        $option = $('<textarea />');
+                    }
+                    
+                    return $option;
+                },
+
+                buildLastQuestion: function() {
+                    var $questionHeading = $('.popup-container .question-heading'),
+                        $questionWording = $('.popup-container .question-wording'),
+                        $quickSelectBlock = '<div class="question-wording">Choose categories to describe your reasons</div>' +
+                                            '<div class="question-quick-select">' +
+                                                '<div class="quick-select-item"><input type="checkbox" value="[Ease of use]"> Ease of use</div>' +
+                                                '<div class="quick-select-item"><input type="checkbox" value="[Functionality]"> Functionality</div>' +
+                                                '<div class="quick-select-item"><input type="checkbox" value="[Information]"> Information</div>' +
+                                                '<div class="quick-select-item"><input type="checkbox" value="[How I feel about AMP]"> How I feel about AMP</div>' +
+                                                '<div class="quick-select-item"><input type="checkbox" value="[Product performance]"> Product performance</div>' +
+                                                '<div class="quick-select-item"><input type="checkbox" value="[Other]"> Other</div>' +
+                                            '</div>';
+
+                    $questionHeading.html('Last question');
+                    $questionWording.html('What could we do to improve your experience?'); 
+                    $questionWording.before($quickSelectBlock);
+                    $('.divNext .button').text('Submit');
+                    $('.divNext .button').attr('data-automation-id', 'btn_net-promoter-score_step_quick_select');
+                    lastQuestionBuilt = true;                                                           
+                },
+
+                formatQuickSelectValues: function() {
+                    var $selectedCheckboxes = $('.quick-select-item input:checked'),
+                        value = '';
+
+                    if($selectedCheckboxes.length > 0){
+                        for(var i=0; i<$selectedCheckboxes.length; i++){
+                            value += $selectedCheckboxes[i].value + ',';
+                        }
+                    }
+
+                    return value;                    
+                },
+                
+                valueQuestion: function(divQuestion){
+                    var valueQuestion = null, $inputOption = null, regexpInput = null,
+                        result = null, inputValue = '',                        
+                        $groupOption = divQuestion.find('.question-content .groupOption');
+                    
+                    if($groupOption.hasClass('btnGroup')){
+                        valueQuestion = $('#btnGroupValue').val();                       
+                    } else {
+                        $inputOption = $groupOption.find('input').size() > 0 ?  $groupOption.find('input') : $groupOption.find('textarea');
+                        inputValue = $inputOption.val();
+
+                        valueQuestion = inputValue;
+                    }
+                    
+                    return valueQuestion;
+                },
+
+                getCookie: function (cname) {
+                    var name, ca, i, c;
+                    name = cname + "=";
+                    ca = document.cookie.split(";");
+                    for (i = 0; i < ca.length; i++) {
+                        c = ca[i];
+                        while (c.charAt(0) === " ") {
+                            c = c.substring(1);
+                        }
+                        if (c.indexOf(name) !== -1) {
+                            return c.substring(name.length, c.length);
+                        }
+                    }
+                    return null;
+                },
+
+                setCookie: function (cname, cvalue, exseconds) {
+                    var d, expires;
+                    if (exseconds) {
+                        d = new Date();
+                        if (exseconds) {
+                            d.setTime(d.getTime() + (exseconds * 1000));
+                        }
+                        expires = "expires=" + d.toGMTString();
+                    } else {
+                        expires = "";
+                    }
+                    document.cookie = cname + "=" + cvalue + "; " + expires + "; path=/";
+                },
+
+                deleteCookie: function(name) {
+                    document.cookie = name + '=;expires=Thu, 01-Jan-70 00:00:01 GMT;path=/';
+                },
+                
+                showThankYou: function(){
+                    $('#popup_nps_now .popup-content-header').append('<div class="question thank-you">' +
+                                                                        '<h1 class="question-heading">Thank you</h3>' +
+                                                                        '<h3 class="question-wording">Your feedback will help us improve your experience.</p>' +
+                                                                        '<div class="divNext"><a class="close button button--medium">Close</a></div></div>');
+                    $('#nps-container .question.thank-you').css('display','block');
+                    $('#popup_nps_now .aem-content').hide();
+                    $('.closeLB').hide();
+
+                    $('#nps-container .question.thank-you a.close').click(function (event) {
+                        $('.closeLB').trigger('click');
+                    });
+                    
+                    setTimeout(function () {
+                        $('.lightBoxArea').hide('slow');
+                        methods.hideDiv($('#nps-invite'), config.survey.invite.animateHideTime);
+                        methods.hideDiv($('#nps-optout'), config.survey.invite.animateHideTime);
+                    }, 5000);
+                },
+
+                getDevice: function () {
+                    if (isDevice.Android()) {
+                        return 'android';
+                    } else if (isDevice.BlackBerry()) {
+                        return 'blackberry';
+                    } else if (isDevice.iOS()) {
+                        return 'iOS';
+                    } else if (isDevice.Opera()) {
+                        return 'opera';
+                    } else if (isDevice.Windows()) {
+                        return 'windows';
+                    } else {
+                        return 'desktop';
+                    }
+                },
+
+                getBrowser: function () {
+                	return bowser.name + '/' + bowser.version;
+                },
+
+                showDiv: function ($div, showTime) {
+                    return $div.animate({
+                        height: "show"
+                    }, showTime).promise();
+                },
+                hideDiv: function ($div, hideTime) {
+                    var promise = $div.animate({
+                        height: "hide"
+                    }, hideTime).promise();
+
+                    return promise.then(function () {
+                        $div.css('display', 'none');
+                    });
+                },
+                populateBottomSection: function () {
+                    $('#nps-container .aem-content .content-block').load(config.aemUrl, function (response, status) {
+                        if (status === 'success') {
+                            console.log('AEM content loaded');
+                        }
+                    });
+                    
+                },
+                setNpsCompleted: function (reason) {
+                    if (config.useCompletedCookie) {
+                        methods.setCookie(config.completedCookieName, reason, config.completedCookieExpiry);
+                    }
+                }
+            };
+
+        $.fn.nps = function (flag) {
+            methods.init(flag);
+        };
+    });
+
+    $(function () {
+        if ($('#nps-container').length === 0) { // dynamic nps
+        	$('.main-content').prepend('<div id="nps-container"></div>');
+        	$('#nps-container').nps(false);
+        }
+        else{ // static nps
+        	XTREME.lightBoxPopUp.init();
+        	$('.nps-error-container .error-button a.button').click(function () {
+                $('.lightBoxArea').hide('slow');   
+                $('.nps-error-container').hide('slow');
+                
+            });
+        	$("#nps-container a.nps-btn-now").on("click", function(){
+            	$('#nps-container').nps(true);
+            });
+        }
+    });
+};
+
+(function (factory) {
+    if (typeof define === 'function' && define.amd) {
+        // AMD. Register as an anonymous module depending on jQuery.
+        define(['jquery'], factory);
+    } else {
+        // No AMD. Register plugin with global jQuery object.
+        factory(jQuery);
+    }
+})(factory);

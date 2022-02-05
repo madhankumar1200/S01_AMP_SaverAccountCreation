@@ -1,0 +1,11 @@
+[t51]
+FileName1=t51_id.json
+URL1=https://dpm.demdex.net/id?d_visid_ver=4.6.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=11BA6EA55322342B0A490D44%40AdobeOrg&d_nsid=0&d_mid=70673313952007354231088583865990664449&d_blob=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&ts=1643724732742
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_51.xml
+RequestHeaderFile=t51_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t51_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

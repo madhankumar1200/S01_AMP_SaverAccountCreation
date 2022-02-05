@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private
+content-encoding: gzip
+Content-Type: text/html;charset=UTF-8
+date: Sat, 5 Feb 2022 05:14:41 GMT
+DCS: dcscanary-prod-apse2-1-v031-04ba2ace0.edge-apse2.demdex.com UNKNOWN
+Expires: Thu, 01 Jan 1970 00:00:00 UTC
+last-modified: Fri, 4 Feb 2022 09:54:46 GMT
+P3P: policyref="/w3c/p3p.xml", CP="NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT"
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+vary: accept-encoding
+X-TID: y5f767XPQYM=
+Content-Length: 2791
+Connection: keep-alive
+

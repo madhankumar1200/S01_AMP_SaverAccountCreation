@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private
+content-encoding: gzip
+Content-Type: text/html;charset=UTF-8
+date: Tue, 1 Feb 2022 13:47:19 GMT
+DCS: dcs-prod-apse2-2-v023-0413e7bfa.edge-apse2.demdex.com UNKNOWN
+Expires: Thu, 01 Jan 1970 00:00:00 UTC
+last-modified: Thu, 20 Jan 2022 09:26:35 GMT
+P3P: policyref="/w3c/p3p.xml", CP="NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT"
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+vary: accept-encoding
+X-TID: 7adPsYuYQ/c=
+transfer-encoding: chunked
+Connection: keep-alive
+

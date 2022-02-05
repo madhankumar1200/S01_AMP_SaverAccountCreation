@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Tue, 01 Feb 2022 14:03:19 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Methods: GET,OPTIONS
+Access-Control-Expose-Headers: Content-Type, Content-Length, Content-Range
+Access-Control-Max-Age: 86400
+Vary: Accept-Encoding, Origin, Authorization
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Content-Length, Origin, Authorization, If-None-Match, If-Modified-Since
+Access-Control-Allow-Origin: https://www.amp.com.au
+ETag: W/"b6a7307b1b4d88e983bb23914dac521d"
+Cache-Control: private, max-age=3415, must-revalidate
+Content-Encoding: gzip
+

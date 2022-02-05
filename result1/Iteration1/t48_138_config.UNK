@@ -1,0 +1,43 @@
+var _process_env = {
+    ApiCallsBaseUrl: "/ddc/public/api",
+    ApiCallsBaseSecureUrl: "/services/secure/ddc/1.0.0",
+    ExperienceName: "saver-account",
+    ExperienceNameForMongo: "SaverAccount",
+    GoogleApiKey: "",
+    UICaptchaTokenHeaderKey: "captcha-token",
+    UICaptchaTypeHeaderKey: "captcha-type",
+    TamServicePath: "/services/secure",
+    TamCustomerDomain: "https://secure.amp.com.au",
+    GwPracticeService: {
+        ApiKey: "80f180a46ab943e2a55f3916e8837e",
+        EnvPath: "",
+        Path: "/practices/1.0.0"
+    },
+    GwDDCService: {
+        ApiKey: "df591ce84c2d12ad679bedb3e14c6ba",
+        EnvPath: "",
+        Path: "/ddc/1.0.0"
+    },
+    GreenId: {
+        configScriptUrl: "https://simpleui.edentiti.com/df/javascripts/greenidConfig.js",
+        uiScriptUrl: "https://simpleui.edentiti.com/df/javascripts/greenidui.min.js",
+        styleUrl: "https://simpleui.edentiti.com/df/assets/stylesheets/greenid.css",
+        environment: "prod",
+        accountId: "amp_au",
+        password: "F2x-L5D-7wW-EY4"
+    },
+    GoogleRecaptcha: {
+        sitekey: "6LeXti4UAAAAAKwhgrxUbjY-dO-OMHhfK3ePEe4b"
+    },
+    DamContentUrl: "https://www.amp.com.au/content/dam/",
+    AmpRootUrl: "https://www.amp.com.au/",
+    AemHostName: "https://www.amp.com.au",
+    AmpPortalRootUrl: "https://portal.amp.com.au/wps/myportal/opp/",
+    nbi: {
+        baseUrl: "/services/secure/nbi/1.0.0/",
+        apiKey: "Bearer 8182e83493b573a01c28e799902b359d"
+    },
+    IFrameContentQuicklinksSelector: "#manage_menu .data-list",
+    AmpDtmUrl:
+        "//assets.adobedtm.com/2852c894343904db05de677c0e93145e96cdd923/satelliteLib-c581e73181056fddc82beffcdd9555bab026d56f.js"
+};

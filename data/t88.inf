@@ -1,0 +1,17 @@
+[t88]
+SnapshotXmlFile=snapshot_88.xml
+FileName1=t88.gif
+URL1=https://amp.d2.sc.omtrdc.net/b/ss/amp-dtm-prd/1/JS-2.22.0-LBWB/s61235455147040?AQB=1&ndh=1&pf=1&t=2%2F1%2F2022%201%3A44%3A50%203%20-660&sdid=5225192D834AEFA9-40DD5AF44C39FEE8&mid=70673313952007354231088583865990664449&aamlh=8&ce=UTF-8&cdp=3&fpCookieDomainPeriods=3&pageName=banking%3Asavings%20accounts%3Aamp%20saver%20account&g=https%3A%2F%2Fwww.amp.com.au%2Fbanking%2Fsavings-accounts%2Famp-saver-account&r=https%3A%2F%2Fsecure.amp.com.au%2F&cc=AUD&ch=amp&aamb=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&c1=web&v1=D%3Dc1&h1=banking%7Csavings%20accounts%7Camp%20saver%20account&c2=banking&v2=D%3Dc2&c3=banking%3Asavings%20accounts&v3=D%3Dc3&v6=false&v7=banking%3Asavings%20accounts%3Aamp%20saver%20account&c12=1643726689854&v12=1%3A44AM%7C1%3A30AM%7CWednesday%7C2%2F2%2F2022&c16=https%3A%2F%2Fwww.amp.com.au%2Fbanking%2Fsavings-accounts%2Famp-saver-account&v16=https%3A%2F%2Fwww.amp.com.au%2Fbanking%2Fsavings-accounts%2Famp-saver-account&c30=70673313952007354231088583865990664449&v30=D%3Dc30&v46=savings-accounts&v47=personal&v48=money-basics&v49=intent&c74=AMP%20PUBLIC%20SITE%20Launch&c75=30&s=1536x960&c=24&j=1.6&v=N&k=Y&bw=1536&bh=841&mcorgid=11BA6EA55322342B0A490D44%40AdobeOrg&AQE=1
+Total=4
+RequestHeaderFile=t88_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t88_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1
+FileName2=t88_json.html
+URL2=https://trc.taboola.com/1236555/trc/3/json?tim=1643726689390&data=%7B%22id%22%3A552%2C%22ii%22%3A%22%2Fbanking%2Fsavings-accounts%2Famp-saver-account%22%2C%22it%22%3A%22video%22%2C%22sd%22%3A%22v2_ab8cc1e2063b15704fc42f263c180661_3a61b933-3010-484d-82bd-e50681f939e4-tuct8f2bf73_1643723251_1643724558_CIi3jgYQy7xLGKSd-azrLyADKAEwEDiu_QZA8IUQSNnR1wNQipoCWABgAGjJ5ITkztCf96QBcAE%22%2C%22ui%22%3A%223a61b933-3010-484d-82bd-e50681f939e4-tuct8f2bf73%22%2C%22vi%22%3A1643726689378%2C%22cv%22%3A%2220220129-3-RELEASE%22%2C%22uiv%22%3A%22default%22%2C%22u%22%3A%22https%3A%2F%2Fwww.amp.com.au%2Fbanking%2Fsavings-accounts%2Famp-saver-account%22%2C%22e%22%3A%22https%3A%2F%2Fsecure.amp.com.au%2F%22%2C%22cb%22%3A%22TFASC.trkCallback%22%2C%22qs%22%3A%22%22%2C%22r%22%3A%5B%7B%22li%22%3A%22rbox-tracking%22%2C%22s%22%3A0%2C%22uim%22%3A%22rbox-tracking%3Apub%3Dreprisemelb-amp-au-sc%3Aabp%3D0%22%2C%22uip%22%3A%22rbox-tracking%22%2C%22orig_uip%22%3A%22rbox-tracking%22%7D%5D%2C%22mpv%22%3Atrue%2C%22mpvd%22%3A%7B%22en%22%3A%22page_view%22%2C%22item-url%22%3A%22https%3A%2F%2Fsecure.amp.com.au%2F%22%2C%22tim%22%3A1643726689388%2C%22ref%22%3A%22https%3A%2F%2Fsecure.amp.com.au%2F%22%2C%22tos%22%3A906634%2C%22ssd%22%3A4%2C%22scd%22%3A81%7D%7D&pubit=i
+FileName3=t88_collect.html
+URL3=https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3230396&time=1643726689259&url=https%3A%2F%2Fwww.amp.com.au%2Fbanking%2Fsavings-accounts%2Famp-saver-account&cookiesTest=true
+FileName4=t88_16012365.html
+URL4=https://bat.bing.com/p/action/16012365.js

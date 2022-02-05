@@ -1,0 +1,18 @@
+GET /id?d_visid_ver=4.5.2&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=11BA6EA55322342B0A490D44%40AdobeOrg&d_nsid=0&d_mid=85468971806268341512845893185175164023&d_blob=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&ts=1643726688697 HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: https://www.amp.com.au/banking/savings-accounts/amp-saver-account
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="97", "Chromium";v="97"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Origin: https://www.amp.com.au
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Accept: */*
+Connection: Keep-Alive
+Host: dpm.demdex.net
+Cookie: demdex=85662709982378243092811243853614187429
+

@@ -1,0 +1,11 @@
+[t14]
+SnapshotXmlFile=snapshot_14.xml
+FileName1=t14.gif
+URL1=https://googleads4.g.doubleclick.net/pcs/view?xai=AKAOjsuWcQClEsoeFC_jL3asie08ugI_vDBSyE-2Edui5OhymSkxxGoQZgY4XIFj3SIlW_kFLdFTnpiHs2tM9sumyEczPXU-ZRMPGPmUrYQYiuDo7iFuG3bFL2zdLLIPQaj3Pg&sig=Cg0ArKJSzPzLAueEOhMCEAE&uach_m=[UACH]&cry=1&fbs_aeid=[gw_fbsaeid]&urlfix=1&omid=0&rm=1&ctpt=1&cbvp=1&cisv=r20220126.43266&adurl=
+Total=1
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t14_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1

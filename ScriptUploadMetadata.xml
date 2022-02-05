@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>S01_AMP_SaverAccountCreation</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="LaunchHomePage.c" Filter="2" />
+    <FileEntry Name="NavigateToBanking.c" Filter="2" />
+    <FileEntry Name="NavigateToSavingsAccount.c" Filter="2" />
+    <FileEntry Name="LearnMoreOnSaverAccount.c" Filter="2" />
+    <FileEntry Name="NavigateToOpenAccount.c" Filter="2" />
+    <FileEntry Name="CreateNewAppln_CustomerByJustMe.c" Filter="2" />
+    <FileEntry Name="ProceedToPersonalDetails.c" Filter="2" />
+    <FileEntry Name="EnterPersonalDetails.c" Filter="2" />
+    <FileEntry Name="EnerResidentialAddress.c" Filter="2" />
+    <FileEntry Name="EnterContactDetails.c" Filter="2" />
+    <FileEntry Name="EnterTFNDetails.c" Filter="2" />
+    <FileEntry Name="EnterForeignTaxDetails.c" Filter="2" />
+    <FileEntry Name="EnterIncomeRelatedInputs.c" Filter="2" />
+    <FileEntry Name="ApplicantIdentityVerification.c" Filter="2" />
+    <FileEntry Name="Declaration.c" Filter="2" />
+    <FileEntry Name="CancelApplication.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="S01_AMP_SaverAccountCreation.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="DfeConfig\" Filter="4" />
+    <FileEntry Name="S01_AMP_SaverAccountCreation.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="p_FirstName.dat" Filter="2" />
+    <FileEntry Name="p_MobileNo.dat" Filter="2" />
+    <FileEntry Name="p_DOB.dat" Filter="2" />
+    <FileEntry Name="p_EmailID.dat" Filter="2" />
+    <FileEntry Name="p_Address.dat" Filter="2" />
+    <FileEntry Name="ScriptVcsSettings.xml" Filter="2" />
+    <FileEntry Name="p_SurName.dat" Filter="2" />
+    <FileEntry Name="combined_S01_AMP_SaverAccountCreation.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="158951611440.idx" Filter="1" />
+    <FileEntry Name="245632538440.idx" Filter="1" />
+    <FileEntry Name="28220060440.idx" Filter="1" />
+    <FileEntry Name="3432535490.idx" Filter="1" />
+    <FileEntry Name="52215068440.idx" Filter="1" />
+    <FileEntry Name="56087354440.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="S01_AMP_SaverAccountCreation.c.pickle" Filter="1" />
+    <FileEntry Name="S01_AMP_SaverAccountCreation.ci" Filter="1" />
+    <FileEntry Name="S01_AMP_SaverAccountCreation.prm.bak" Filter="1" />
+    <FileEntry Name="S01_AMP_SaverAccountCreation_WIP.prm.bak" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name=".git\" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

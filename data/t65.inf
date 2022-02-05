@@ -1,0 +1,11 @@
+[t65]
+SnapshotXmlFile=snapshot_65.xml
+FileName1=t65.gif
+URL1=https://amp.d2.sc.omtrdc.net/b/ss/amp-dtm-prd/1/JS-2.22.0-LBWB/s66178177557041?AQB=1&ndh=1&pf=1&t=2%2F1%2F2022%201%3A23%3A22%203%20-660&mid=70673313952007354231088583865990664449&aamlh=8&ce=UTF-8&cdp=3&fpCookieDomainPeriods=3&pageName=DDC%3AAMP%20Saver%20Account&g=https%3A%2F%2Fsecure.amp.com.au%2Fddc%2Fpublic%2Fui%2Fsaver-account%2F&cc=AUD&events=event67&c25=DDC%3AAMP%20Saver%20Account%3Abtn-applicants-0-personalDetails-basicInfo-OK&v25=DDC%3AAMP%20Saver%20Account%3Abtn-applicants-0-personalDetails-basicInfo-OK&pe=lnk_o&pev2=link%20clicked&s=1536x960&c=24&j=1.6&v=N&k=Y&bw=1536&bh=841&mcorgid=11BA6EA55322342B0A490D44%40AdobeOrg&lrt=1326&AQE=1
+Total=1
+RequestHeaderFile=t65_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t65_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1

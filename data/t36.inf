@@ -1,0 +1,15 @@
+[t36]
+FileName1=t36.html
+URL1=https://bat.bing.com/actionp/0?ti=16012365&Ver=2&mid=8280baf4-1744-4f7d-954b-6baaad95bcb6&sid=7c784480836511ecb938af507a963ec8&vid=7c7a99f0836511ec8d66cb32184140ff&vids=0&evt=pageHide
+Total=3
+RequestHeaderFile=t36_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t36_ResponseHeader.txt
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_36.xml
+FileName2=t36_0.html
+URL2=https://bat.bing.com/action/0?ti=16012365&Ver=2&mid=ff5e7c4b-0f90-4eef-91ba-422aaff185bb&sid=7c784480836511ecb938af507a963ec8&vid=7c7a99f0836511ec8d66cb32184140ff&vids=0&uach=pv%3D14.0.0&pi=918639831&lg=en-US&sw=1536&sh=960&sc=24&tl=High%20Interest%20Saving%20Accounts%20-%20AMP&p=https%3A%2F%2Fwww.amp.com.au%2Fbanking%2Fsavings-accounts&r=https%3A%2F%2Fwww.amp.com.au%2Fbanking&lt=1053&mtp=10&evt=pageLoad&msclkid=N&sv=1&rn=394115
+FileName3=t36_json.html
+URL3=https://trc.taboola.com/1236555/trc/3/json?tim=1643724369806&data=%7B%22id%22%3A287%2C%22ii%22%3A%22%2Fbanking%2Fsavings-accounts%22%2C%22it%22%3A%22video%22%2C%22sd%22%3A%22v2_ab8cc1e2063b15704fc42f263c180661_3a61b933-3010-484d-82bd-e50681f939e4-tuct8f2bf73_1643723251_1643723251_CIi3jgYQy7xLGIS1qazrLyABKAEwEDiu_QZA8IUQSNnR1wNQipoCWABgAGjJ5ITkztCf96QBcAE%22%2C%22ui%22%3A%223a61b933-3010-484d-82bd-e50681f939e4-tuct8f2bf73%22%2C%22vi%22%3A1643724369798%2C%22cv%22%3A%2220220129-3-RELEASE%22%2C%22uiv%22%3A%22default%22%2C%22u%22%3A%22https%3A%2F%2Fwww.amp.com.au%2Fbanking%2Fsavings-accounts%22%2C%22e%22%3A%22https%3A%2F%2Fwww.amp.com.au%2Fbanking%22%2C%22cb%22%3A%22TFASC.trkCallback%22%2C%22qs%22%3A%22%22%2C%22r%22%3A%5B%7B%22li%22%3A%22rbox-tracking%22%2C%22s%22%3A0%2C%22uim%22%3A%22rbox-tracking%3Apub%3Dreprisemelb-amp-au-sc%3Aabp%3D0%22%2C%22uip%22%3A%22rbox-tracking%22%2C%22orig_uip%22%3A%22rbox-tracking%22%7D%5D%2C%22mpv%22%3Atrue%2C%22mpvd%22%3A%7B%22en%22%3A%22page_view%22%2C%22item-url%22%3A%22https%3A%2F%2Fwww.amp.com.au%2Fbanking%22%2C%22tim%22%3A1643724369805%2C%22ref%22%3A%22https%3A%2F%2Fwww.amp.com.au%2Fbanking%22%2C%22tos%22%3A742572%2C%22ssd%22%3A3%2C%22scd%22%3A81%7D%7D&pubit=i
+[ProtocolInfo]
+ProtocolId=QTWeb

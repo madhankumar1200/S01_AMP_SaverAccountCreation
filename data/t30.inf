@@ -1,0 +1,11 @@
+[t30]
+SnapshotXmlFile=snapshot_30.xml
+FileName1=t30.jfif
+URL1=https://www.pages03.net/WTS/event.jpeg?accesskey=18560ebc-14a40f8eab9-943e27de0c8b91cc3fcf1475c3e5d726&v=1.31&isNewSession=0&type=pageview&isNewVisitor=0&sessionGUID=0e355274-d8b5-1955-b1c5-a94e0e797de5&webSyncID=d9b1e74c-a061-d26d-21e0-5dab19243e2c&url=https%3A%2F%2Fwww.amp.com.au%2Fbanking&newSiteVisit=0&referringURL=https%3A%2F%2Fwww.amp.com.au%2F&hostname=www.amp.com.au&pathname=%2Fbanking&newPageVisit=1&eventKey=eeeb6559-b844-6449-6076-d6d26ed80a78
+Total=1
+RequestHeaderFile=t30_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t30_ResponseHeader.txt
+ContentType=image/jpeg
+FrameIndex1=0
+UseFrameIndex=1

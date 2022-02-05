@@ -1,0 +1,11 @@
+[t27]
+SnapshotXmlFile=snapshot_27.xml
+FileName1=t27.gif
+URL1=https://amp.d2.sc.omtrdc.net/b/ss/amp-dtm-prd/1/JS-2.22.0-LBWB/s65232394709390?AQB=1&ndh=1&pf=1&t=2%2F1%2F2022%201%3A3%3A19%203%20-660&sdid=5C0E1C7DAD491BA0-79673CE5256CE744&mid=70673313952007354231088583865990664449&aamlh=8&ce=UTF-8&cdp=3&fpCookieDomainPeriods=3&pageName=banking&g=https%3A%2F%2Fwww.amp.com.au%2Fbanking&r=https%3A%2F%2Fwww.amp.com.au%2F&cc=AUD&ch=amp&aamb=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&c1=web&v1=D%3Dc1&h1=banking&c2=banking&v2=D%3Dc2&c3=banking&v3=D%3Dc3&v6=false&v7=banking&c12=1643724199012&v12=1%3A03AM%7C1%3A00AM%7CWednesday%7C2%2F2%2F2022&c16=https%3A%2F%2Fwww.amp.com.au%2Fbanking&v16=https%3A%2F%2Fwww.amp.com.au%2Fbanking&c30=70673313952007354231088583865990664449&v30=D%3Dc30&c32=home&v47=personal&v49=consideration&c74=AMP%20PUBLIC%20SITE%20Launch&c75=36&s=1536x960&c=24&j=1.6&v=N&k=Y&bw=1536&bh=841&mcorgid=11BA6EA55322342B0A490D44%40AdobeOrg&AQE=1
+Total=1
+RequestHeaderFile=t27_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t27_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1

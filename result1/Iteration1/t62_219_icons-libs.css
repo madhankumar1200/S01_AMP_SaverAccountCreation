@@ -1,0 +1,150 @@
+@charset "UTF-8";@font-face{font-family:'xtreme';src:url("../assets/fonts/xtreme.eot");src:local("☺︎"),url("../assets/fonts/xtreme.eot") format("embedded-opentype"),url("../assets/fonts/xtreme.woff") format("woff"),url("../assets/fonts/xtreme.ttf") format("truetype"),url("../assets/fonts/xtreme.svg#xtreme") format("svg")}
+@font-face{font-family:'needs-selector';src:url("../assets/fonts/needs-selector.eot");src:local("☺︎"),url("../assets/fonts/needs-selector.eot") format("embedded-opentype"),url("../assets/fonts/needs-selector.woff") format("woff"),url("../assets/fonts/needs-selector.ttf") format("truetype"),url("../assets/fonts/needs-selector.svg#needs-selector") format("svg")}
+.icon-amp-needs-selector_borrow-for-my-business:before{content:"\e600"}
+.icon-amp-needs-selector_buy-a-home-or-invest-in-property:before{content:"\e601"}
+.icon-amp-needs-selector_control-my-debt-and-manage-my-cashflow:before{content:"\e602"}
+.icon-amp-needs-selector_get-advice-on-running-a-small-business:before{content:"\e603"}
+.icon-amp-needs-selector_insure-my-business:before{content:"\e604"}
+.icon-amp-needs-selector_invest-my-surplus-cash:before{content:"\e605"}
+.icon-amp-needs-selector_look-after-my-family:before{content:"\e606"}
+.icon-amp-needs-selector_make-my-money-work-harder:before{content:"\e607"}
+.icon-amp-needs-selector_make-the-best-choices-for-my-retirement:before{content:"\e608"}
+.icon-amp-needs-selector_make-the-most-of-my-retirement-funds:before{content:"\e609"}
+.icon-amp-needs-selector_manage-my-existing-account:before{content:"\e60a"}
+.icon-amp-needs-selector_maximise-my-superannuation:before{content:"\e60b"}
+.icon-amp-needs-selector_plan-ahead-for-retirement:before{content:"\e60c"}
+.icon-amp-needs-selector_plan-for:before{content:"\e60d"}
+.icon-amp-needs-selector_protect-what-is-important-to-me:before{content:"\e60e"}
+.icon-amp-needs-selector_provide-super-for-my-employees:before{content:"\e60f"}
+.icon-amp-needs-selector_select-the-right-investment-vehicle:before{content:"\e610"}
+.icon-amp-needs-selector_setup-my-finances:before{content:"\e611"}
+.icon-amp-needs-selector_take-control-of-my-finances:before{content:"\e612"}
+@charset "UTF-8";.icon-amp_acrobat:before,.icon--acrobat:before{content:""}
+.icon-amp_add-account:before,.icon--add-account:before{content:""}
+.icon-amp_already-have-a-product:before,.icon--already-have-a-product:before{content:""}
+.icon-amp_announcement:before,.icon--announcement:before{content:""}
+.icon-amp_apply:before,.icon--apply:before{content:""}
+.icon-amp_arrow-down:before,.icon--arrow-down:before{content:""}
+.icon-amp_arrow-filled-down:before,.icon--arrow-filled-down:before{content:""}
+.icon-amp_arrow-filled-up:before,.icon--arrow-filled-up:before{content:""}
+.icon-amp_arrow-up:before,.icon--arrow-up:before{content:""}
+.icon-amp_bpay:before,.icon--bpay:before{content:""}
+.icon-amp_calculator:before,.icon--calculator:before{content:""}
+.icon-amp_chat:before,.icon--chat:before{content:""}
+.icon-amp_chevron-down:before,.icon--chevron-down:before{content:""}
+.icon-amp_chevron-left-o:before,.icon--chevron-left-o:before{content:""}
+.icon-amp_chevron-left:before,.icon--chevron-left:before{content:""}
+.icon-amp_chevron-right-o:before,.icon--chevron-right-o:before{content:""}
+.icon-amp_chevron-right:before,.icon--chevron-right:before{content:""}
+.icon-amp_chevron-up:before,.icon--chevron-up:before{content:""}
+.icon-amp_clipboard:before,.icon--clipboard:before{content:""}
+.icon-amp_close:before,.icon--close:before{content:""}
+.icon-amp_compare:before,.icon--compare:before{content:""}
+.icon-amp_contact-us:before,.icon--contact-us:before{content:""}
+.icon-amp_danger:before,.icon--danger:before{content:""}
+.icon-amp_delete:before,.icon--delete:before{content:""}
+.icon-amp_document:before,.icon--document:before{content:""}
+.icon-amp_downloads:before,.icon--downloads:before{content:""}
+.icon-amp_edit:before,.icon--edit:before{content:""}
+.icon-amp_events-or-appointment:before,.icon--events-or-appointment:before{content:""}
+.icon-amp_exit:before,.icon--exit:before{content:""}
+.icon-amp_export:before,.icon--export:before{content:""}
+.icon-amp_external:before,.icon--external:before{content:""}
+.icon-amp_facebook:before,.icon--facebook:before{content:""}
+.icon-amp_faqs:before,.icon--faqs:before{content:""}
+.icon-amp_favourite-or-save:before,.icon--favourite-or-save:before{content:""}
+.icon-amp_filter:before,.icon--filter:before{content:""}
+.icon-amp_form-calendar:before,.icon--form-calendar:before{content:""}
+.icon-amp_home:before,.icon--home:before{content:""}
+.icon-amp_impersonate:before,.icon--impersonate:before{content:""}
+.icon-amp_important-information:before,.icon--important-information:before{content:""}
+.icon-amp_industry:before,.icon--industry:before{content:""}
+.icon-amp_investment:before,.icon--investment:before{content:""}
+.icon-amp_key:before,.icon--key:before{content:""}
+.icon-amp_like:before,.icon--like:before{content:""}
+.icon-amp_linked-in:before,.icon--linked-in:before{content:""}
+.icon-amp_linked:before,.icon--linked:before{content:""}
+.icon-amp_location:before,.icon--location:before{content:""}
+.icon-amp_locked:before,.icon--locked:before{content:""}
+.icon-amp_menu:before,.icon--menu:before{content:""}
+.icon-amp_minus:before,.icon--minus:before{content:""}
+.icon-amp_modal-close:before,.icon--modal-close:before{content:""}
+.icon-amp_more:before,.icon--more:before{content:""}
+.icon-amp_money:before,.icon--money:before{content:""}
+.icon-amp_newsletter:before,.icon--newsletter:before{content:""}
+.icon-amp_performance:before,.icon--performance:before{content:""}
+.icon-amp_phone:before,.icon--phone:before{content:""}
+.icon-amp_plus:before,.icon--plus:before{content:""}
+.icon-amp_plus-filled:before,.icon--plus-filled:before{content:""}
+.icon-amp_plus-outlined:before,.icon--plus-outlined:before{content:""}
+.icon-amp_print:before,.icon--print:before{content:""}
+.icon-amp_rates-and-fees:before,.icon--rates-and-fees:before{content:""}
+.icon-amp_refresh:before,.icon--refresh:before{content:""}
+.icon-amp_search:before,.icon--search:before{content:""}
+.icon-amp_settings:before,.icon--settings:before{content:""}
+.icon-amp_share:before,.icon--share:before{content:""}
+.icon-amp_sound:before,.icon--sound:before{content:""}
+.icon-amp_start-again:before,.icon--start-again:before{content:""}
+.icon-amp_things-to-consider:before,.icon--things-to-consider:before{content:""}
+.icon-amp_tick-filled:before,.icon--tick-filled:before{content:""}
+.icon-amp_tick-outlined:before,.icon--tick-outlined:before{content:""}
+.icon-amp_tick:before,.icon--tick:before{content:""}
+.icon-amp_tiles:before,.icon--tiles:before{content:""}
+.icon-amp_time:before,.icon--time:before{content:""}
+.icon-amp_tools-and-calculators:before,.icon--tools-and-calculators:before{content:""}
+.icon-amp_tooltip:before,.icon--tooltip:before{content:""}
+.icon-amp_tour:before,.icon--tour:before{content:""}
+.icon-amp_transfer:before,.icon--transfer:before{content:""}
+.icon-amp_twitter:before,.icon--twitter:before{content:""}
+.icon-amp_unlock:before,.icon--unlock:before{content:""}
+.icon-amp_user-login:before,.icon--user-login:before{content:""}
+.icon-amp_visibility-off:before,.icon--visibility-off:before{content:""}
+.icon-amp_visibility-on:before,.icon--visibility-on:before{content:""}
+.icon-amp_warning-filled:before,.icon--warning-filled:before{content:""}
+.icon-amp_warning-outlined:before,.icon--warning-outlined:before{content:""}
+.icon-amp_wifi:before,.icon--wifi:before{content:""}
+.icon-amp_youtube:before,.icon--youtube:before{content:""}
+.icon-amp_invest-mix-life:before,.icon--invest-mix-life:before{content:""}
+.icon-amp_invest-mix-risk:before,.icon--invest-mix-risk:before{content:""}
+.icon-amp_invest-mix-own:before,.icon--invest-mix-own:before{content:""}
+.icon-amp_minimise:before,.icon--minimise:before{content:""}
+.icon-amp_minimise-filled:before,.icon--minimise-filled:before{content:""}
+.icon-amp_chart:before,.icon--chart:before{content:""}
+.icon-amp_instagram:before,.icon--instagram:before{content:""}
+.icon-amp_adjust-quote:before,.icon--adjust-quote:before{content:""}
+.icon-amp_18-plus:before,.icon--18-plus:before{content:""}
+.icon-amp_danger-filled:before,.icon--danger-filled:before{content:""}
+.icon-amp_id:before,.icon--id:before{content:""}
+.icon-amp_time-2:before,.icon--time-2:before{content:""}
+.icon-amp_card:before,.icon--card:before{content:""}
+.icon-amp_cards:before,.icon--cards:before{content:""}
+.icon-amp_notifications:before,.icon--notifications:before{content:""}
+.icon--person-one-to-many .path1,.icon--person-one-to-many .path2,.icon--person-one-to-many .path3,.icon--person-one-to-many .path4,.icon--person-one-to-many .path5,.icon--person-one-to-many .path6,.icon--person-one-to-many .path7,.icon--person-one-to-many .path8,.icon--person-one-to-many .path9,.icon--person-one-to-many .path10{font-family:"xtreme"}
+.icon--person-one-to-many .path1:before{content:"\e656";color:#004983}
+.icon--person-one-to-many .path2:before{content:"\e657";margin-left:-1em;color:#004983}
+.icon--person-one-to-many .path3:before{content:"\e658";margin-left:-1em;color:#64b5e5}
+.icon--person-one-to-many .path4:before{content:"\e659";margin-left:-1em;color:#64b5e5}
+.icon--person-one-to-many .path5:before{content:"\e65a";margin-left:-1em;color:#abb4bf}
+.icon--person-one-to-many .path6:before{content:"\e65b";margin-left:-1em;color:#abb4bf}
+.icon--person-one-to-many .path7:before{content:"\e65c";margin-left:-1em;color:#abb4bf}
+.icon--person-one-to-many .path8:before{content:"\e65d";margin-left:-1em;color:#abb4bf}
+.icon--person-one-to-many .path9:before{content:"\e65e";margin-left:-1em;color:#abb4bf}
+.icon--person-one-to-many .path10:before{content:"\e65f";margin-left:-1em;color:#abb4bf}
+.icon--person-many-to-one .path1,.icon--person-many-to-one .path2,.icon--person-many-to-one .path3,.icon--person-many-to-one .path4,.icon--person-many-to-one .path5,.icon--person-many-to-one .path6,.icon--person-many-to-one .path7,.icon--person-many-to-one .path8,.icon--person-many-to-one .path9,.icon--person-many-to-one .path10{font-family:"xtreme"}
+.icon--person-many-to-one .path1:before{content:"\e64c";color:#004983}
+.icon--person-many-to-one .path2:before{content:"\e64d";margin-left:-1em;color:#004983}
+.icon--person-many-to-one .path3:before{content:"\e64e";margin-left:-1em;color:#64b5e5}
+.icon--person-many-to-one .path4:before{content:"\e64f";margin-left:-1em;color:#64b5e5}
+.icon--person-many-to-one .path5:before{content:"\e650";margin-left:-1em;color:#abb4bf}
+.icon--person-many-to-one .path6:before{content:"\e651";margin-left:-1em;color:#abb4bf}
+.icon--person-many-to-one .path7:before{content:"\e652";margin-left:-1em;color:#abb4bf}
+.icon--person-many-to-one .path8:before{content:"\e653";margin-left:-1em;color:#abb4bf}
+.icon--person-many-to-one .path9:before{content:"\e654";margin-left:-1em;color:#abb4bf}
+.icon--person-many-to-one .path10:before{content:"\e655";margin-left:-1em;color:#abb4bf}
+.icon--monitor-graph .path1,.icon--monitor-graph .path2,.icon--monitor-graph .path3,.icon--monitor-graph .path4,.icon--monitor-graph .path5,.icon--monitor-graph .path6{font-family:"xtreme"}
+.icon--monitor-graph .path1:before{content:"\e663";color:#00aae0}
+.icon--monitor-graph .path2:before{content:"\e664";margin-left:-1em;color:#ccd2d9}
+.icon--monitor-graph .path3:before{content:"\e665";margin-left:-1em;color:#fff}
+.icon--monitor-graph .path4:before{content:"\e666";margin-left:-1em;color:#ccd2d9}
+.icon--monitor-graph .path5:before{content:"\e667";margin-left:-1em;color:#ccd2d9}
+.icon--monitor-graph .path6:before{content:"\e668";margin-left:-1em;color:#ccd2d9}

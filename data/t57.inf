@@ -1,0 +1,11 @@
+[t57]
+FileName1=t57_DDO.portal-content.json
+URL1=https://www.amp.com.au/content/amp-secure/my-amp/ddc/saver-account/DDO.portal-content.json
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_57.xml
+RequestHeaderFile=t57_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t57_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

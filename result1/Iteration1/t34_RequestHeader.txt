@@ -1,0 +1,19 @@
+POST /rb_bf96747ztk?type=js3&sn=v_4_srv_2_sn_B2C46848A0CAF7F0F8E1AA282D9187B9_perc_100000_ol_0_mul_1_app-3Acd4697ba1bc4a478_1&svrid=2&flavor=post&vi=TAEGRSBDMHKOUBPKPGPWVQAPOVFTIFIK-0&modifiedSince=1643756790764&rf=https%3A%2F%2Fwww.amp.com.au%2Fbanking&bp=3&app=cd4697ba1bc4a478&crc=2452274923&en=o0bm09bh&end=1 HTTP/1.1
+Content-Type: text/plain;charset=UTF-8
+Referer: https://www.amp.com.au/banking
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="97", "Chromium";v="97"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Origin: https://www.amp.com.au
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Accept: */*
+Connection: Keep-Alive
+Host: www.amp.com.au
+Cookie: AWSELB=B56F81F712C89912B18802A47E2066BA790B8E18252541871D077D58946AF855867FD85D5D32B2E5BF2CFE58FE8BB7CB43FBC2AC9DB0B5D08C2BCBE51888D82B5A6C82C15D; AWSELBCORS=B56F81F712C89912B18802A47E2066BA790B8E18252541871D077D58946AF855867FD85D5D32B2E5BF2CFE58FE8BB7CB43FBC2AC9DB0B5D08C2BCBE51888D82B5A6C82C15D; dtCookie=v_4_srv_2_sn_B2C46848A0CAF7F0F8E1AA282D9187B9_perc_100000_ol_0_mul_1_app-3Acd4697ba1bc4a478_1; JSESSIONID=0000EWLmr3cwT2muLI8xYDolNr-:190ohadk8
+Content-Length: 13123
+
